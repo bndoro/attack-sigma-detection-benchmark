@@ -1,0 +1,950 @@
+case_id,rule_id,title,level,status,source_dir,n_events,techniques
+SDWIN-190301125905,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,24,T1531
+SDWIN-190301125905,12ba6a38-adb3-4d6b-91ba-a7fb248e3199,Password Policy Enumerated,medium,test,rules,2,T1201
+SDWIN-190301125905,1f21ec3f-810d-4b0e-8045-322202e22b4b,Network Connection Initiated By PowerShell Process,low,test,rules-threat-hunting,9,T1059.001
+SDWIN-190301125905,2c99737c-585d-4431-b61a-c911d86ff32f,Powerview Add-DomainObjectAcl DCSync AD Extend Right,high,test,rules,6,T1098
+SDWIN-190301125905,7d0d0329-0ef1-4e84-a9f5-49500f9d7c6c,Malicious PowerShell Commandlets - PoshModule,high,test,rules,12,T1059.001;T1069;T1069.001;T1069.002;T1087;T1087.001;T1087.002;T1482
+SDWIN-190301125905,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,22,T1053.005
+SDWIN-190301174830,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,6,T1531
+SDWIN-190301174830,17d619c1-e020-4347-957e-1d1207455c93,Active Directory Replication from Non Machine Account - DcSync Indicator,medium,test,rules,3,T1003.006
+SDWIN-190301174830,1f21ec3f-810d-4b0e-8045-322202e22b4b,Network Connection Initiated By PowerShell Process,low,test,rules-threat-hunting,2,T1059.001
+SDWIN-190301174830,502b42de-4306-40b4-9596-6f590c81f073,Local Accounts Discovery - Generic,low,test,rules,2,T1033;T1087.001
+SDWIN-190319020147,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,4,T1531
+SDWIN-190319020147,183e7ea8-ac4b-4c23-9aec-b3dac4e401ac,Net.EXE Execution - Generic,low,test,rules-threat-hunting,4,T1007;T1018;T1021.002;T1049;T1069.001;T1069.002;T1087.001;T1087.002;T1135;T1201
+SDWIN-190319020147,d95de845-b83c-4a9a-8a6a-4fc802ebf6c0,Suspicious Group And Account Reconnaissance Activity Using Net.EXE - Generic,medium,test,rules,4,T1087.001;T1087.002
+SDWIN-190319020729,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,3,T1531
+SDWIN-190319020729,183e7ea8-ac4b-4c23-9aec-b3dac4e401ac,Net.EXE Execution - Generic,low,test,rules-threat-hunting,4,T1007;T1018;T1021.002;T1049;T1069.001;T1069.002;T1087.001;T1087.002;T1135;T1201
+SDWIN-190319020729,502b42de-4306-40b4-9596-6f590c81f073,Local Accounts Discovery - Generic,low,test,rules,4,T1033;T1087.001
+SDWIN-190319021158,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,5,T1531
+SDWIN-190319021158,12ba6a38-adb3-4d6b-91ba-a7fb248e3199,Password Policy Enumerated,medium,test,rules,1,T1201
+SDWIN-190319021158,183e7ea8-ac4b-4c23-9aec-b3dac4e401ac,Net.EXE Execution - Generic,low,test,rules-threat-hunting,4,T1007;T1018;T1021.002;T1049;T1069.001;T1069.002;T1087.001;T1087.002;T1135;T1201
+SDWIN-190319023812,00bb5bd5-1379-4fcf-a965-a5b6f7478064,Windows Firewall Settings Have Been Changed,low,test,rules,1,T1686.003
+SDWIN-190319023812,092bc4b9-3d1d-43b4-a6b4-8c8acd83522f,PowerShell Core DLL Loaded By Non PowerShell Process,medium,test,rules,1,T1059.001
+SDWIN-190319023812,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,59,T1531
+SDWIN-190319023812,0e4164da-94bc-450d-a7be-a4b176179f1f,Firewall Configuration Discovery Via Netsh.EXE - Generic,low,test,rules,4,T1016
+SDWIN-190319023812,0ef56343-059e-4cb6-adc1-4c3c967c5e46,Suspicious Execution of Systeminfo - Generic,low,test,rules,1,T1082
+SDWIN-190319023812,1027d292-dd87-4a1a-8701-2abe04d7783c,PSScriptPolicyTest Creation By Uncommon Process,medium,test,rules,2,
+SDWIN-190319023812,1e33157c-53b1-41ad-bbcc-780b80b58288,WSF/JSE/JS/VBA/VBE File Execution Via Cscript/Wscript - Generic,medium,test,rules-threat-hunting,1,T1059.005;T1059.007
+SDWIN-190319023812,20f0ee37-5942-4e45-b7d5-c5b5db9df5cd,CurrentVersion Autorun Keys Modification - Generic,medium,test,rules,1,T1547.001
+SDWIN-190319023812,259a9cdf-c4dd-4fa2-b243-2269e5ab18a2,External Remote RDP Logon from Public IP,medium,test,rules,2,T1078;T1110;T1133
+SDWIN-190319023812,36210e0d-5b19-485d-a087-c096088885f0,Suspicious PowerShell Parameter Substring - Generic,high,test,rules,2,T1059.001
+SDWIN-190319023812,411742ad-89b0-49cb-a7b0-3971b5c1e0a4,Locked Workstation,informational,stable,rules,1,
+SDWIN-190319023812,4a1b6da0-d94f-4fc3-98fc-2d9cb9e5ee76,Potentially Suspicious AccessMask Requested From LSASS,medium,test,rules,2,T1003.001
+SDWIN-190319023812,502b42de-4306-40b4-9596-6f590c81f073,Local Accounts Discovery - Generic,low,test,rules,1,T1033;T1087.001
+SDWIN-190319023812,558eebe5-f2ba-4104-b339-36f7902bcc1a,File Creation Date Changed to Another Year,low,test,rules-threat-hunting,91,T1070.006
+SDWIN-190319023812,575dce0c-8139-4e30-9295-1ee75969f7fe,Potential Reconnaissance Activity Via GatherNetworkInfo.VBS - Generic,medium,test,rules,1,T1059.005;T1615
+SDWIN-190319023812,5ef9853e-4d0e-4a70-846f-a9ca37d876da,Potential Credential Dumping Activity Via LSASS,medium,test,rules,2,T1003.001
+SDWIN-190319023812,63332011-f057-496c-ad8d-d2b6afb27f96,Suspicious Tasklist Discovery Command - Generic,informational,test,rules-threat-hunting,2,T1057
+SDWIN-190319023812,64e8e417-c19a-475a-8d19-98ea705394cc,Alternate PowerShell Hosts - PowerShell Module,medium,test,rules,170,T1059.001
+SDWIN-190319023812,78d5cab4-557e-454f-9fb9-a222bd0d5edc,External Remote SMB Logon from Public IP,high,test,rules,2,T1078;T1110;T1133
+SDWIN-190319023812,8d85cf08-bf97-4260-ba49-986a2a65129c,Suspicious PowerShell In Registry Run Keys - Generic,medium,test,rules,1,T1547.001
+SDWIN-190319023812,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,39,T1053.005
+SDWIN-190319023812,970007b7-ce32-49d0-a4a4-fbef016950bd,Potential Configuration And Service Reconnaissance Via Reg.EXE - Generic,medium,test,rules,1,T1007;T1012
+SDWIN-190319023812,a29c1813-ab1f-4dde-b489-330b952e91ae,Suspicious Network Command - Generic,low,test,rules,14,T1016
+SDWIN-190319023812,a762e74f-4dce-477c-b023-4ed81df600f9,Scheduled Task Created - FileCreation,low,test,rules-threat-hunting,1,T1053.005
+SDWIN-190319023812,ac7102b4-9e1e-4802-9b4f-17c5524c015c,New PowerShell Instance Created,informational,test,rules,1,T1059.001
+SDWIN-190319023812,ad1f4bb9-8dfb-4765-adb6-2a7cfb6c0f94,Suspicious WSMAN Provider Image Loads,medium,test,rules,1,T1021.003;T1059.001
+SDWIN-190319023812,ae7fbf8e-f3cb-49fd-8db4-5f3bed522c71,Suspicious PowerShell Invocations - Specific,high,test,rules,1,T1059.001
+SDWIN-190319023812,b3ad3c0f-c949-47a1-a30e-b0491ccae876,Uncommon Connection to Active Directory Web Services,medium,test,rules,5,T1087
+SDWIN-190319023812,bafd07c6-3ea5-454a-b4be-058fbb073de7,Potential Executable Run Itself As Sacrificial Process - Generic,low,experimental,rules-threat-hunting,4,T1055
+SDWIN-190319023812,bbb9495b-58fc-4016-b9df-9a3a1b67ca82,Password Policy Discovery With Get-AdDefaultDomainPasswordPolicy,low,test,rules,1,T1201
+SDWIN-190319023812,c86133ad-4725-4bd0-8170-210788e0a7ba,Net WebClient Casing Anomalies - Generic,high,test,rules,1,T1059.001
+SDWIN-190319023812,d0d28567-4b9a-45e2-8bbc-fb1b66a1f7f6,Unusually Long PowerShell CommandLine - Generic,low,test,rules-threat-hunting,1,T1059.001
+SDWIN-190319023812,d3c3861d-c504-4c77-ba55-224ba82d0118,New Network Trace Capture Started Via Netsh.EXE - Generic,medium,test,rules,2,T1040
+SDWIN-190319023812,db809f10-56ce-4420-8c86-d6a7d793c79c,Potential Defense Evasion Via Raw Disk Access By Uncommon Tools,low,test,rules,3,T1006
+SDWIN-190319023812,e0d6c087-2d1c-47fd-8799-3904103c5a98,AMSI Bypass Pattern Assembly GetType,high,test,rules,1,T1685
+SDWIN-190319023812,e56d3073-83ff-4021-90fe-c658e0709e72,Gpresult Display Group Policy Information - Generic,medium,test,rules,1,T1615
+SDWIN-190319023812,f4bbd493-b796-416e-bbf2-121235348529,Non Interactive PowerShell Process Spawned - Generic,low,test,rules,1,T1059.001
+SDWIN-190319023812,fb843269-508c-4b76-8b8d-88679db22ce7,Suspicious Execution of Powershell with Base64 - Generic,medium,test,rules,2,T1059.001
+SDWIN-190319023812,fd877b94-9bb5-4191-bb25-d79cbd93c167,Dumping of Sensitive Hives Via Reg.EXE - Generic,high,test,rules,2,T1003.002;T1003.004;T1003.005
+SDWIN-190319024742,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,7,T1531
+SDWIN-190319024742,3a6586ad-127a-4d3b-a677-1e6eacdf8fde,Windows Shell/Scripting Processes Spawning Suspicious Programs - Generic,high,test,rules,2,T1059.001;T1059.005;T1218
+SDWIN-190319024742,92626ddd-662c-49e3-ac59-f6535f12d189,Scheduled Task Creation Via Schtasks.EXE - Generic,low,test,rules,2,T1053.005
+SDWIN-190319024742,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,14,T1053.005
+SDWIN-190319024742,a762e74f-4dce-477c-b023-4ed81df600f9,Scheduled Task Created - FileCreation,low,test,rules-threat-hunting,1,T1053.005
+SDWIN-190319024742,e32d4572-9826-4738-b651-95fa63747e8a,Base64 Encoded PowerShell Command Detected - Generic,high,test,rules,2,T1027;T1059.001;T1140
+SDWIN-190319024742,e4b6d2a7-d8a4-4f19-acbd-943c16d90647,Potentially Suspicious PowerShell Child Processes - Generic,medium,test,rules-threat-hunting,2,T1059.001
+SDWIN-190319024742,f2c64357-b1d2-41b7-849f-34d2682c0fad,Suspicious Command Patterns In Scheduled Task Creation - Generic,high,test,rules,2,T1053.005
+SDWIN-190319131123,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,6,T1531
+SDWIN-190319131123,0f920ebe-7aea-4c54-b202-9aa0c609cfe5,Potential Credential Dumping Attempt Via PowerShell,medium,test,rules-threat-hunting,2,T1003.001
+SDWIN-190319131123,192a0330-c20b-4356-90b6-7b7049ae0b87,Successful Overpass the Hash Attempt,high,test,rules,1,T1550.002
+SDWIN-190319131123,3037d961-21e9-4732-b27a-637bcc7bf539,Suspicious High IntegrityLevel Conhost Legacy Option - Generic,informational,test,rules,1,T1202
+SDWIN-190319131123,4a1b6da0-d94f-4fc3-98fc-2d9cb9e5ee76,Potentially Suspicious AccessMask Requested From LSASS,medium,test,rules,3,T1003.001
+SDWIN-190319131123,502b42de-4306-40b4-9596-6f590c81f073,Local Accounts Discovery - Generic,low,test,rules,2,T1033;T1087.001
+SDWIN-190319131123,5ef9853e-4d0e-4a70-846f-a9ca37d876da,Potential Credential Dumping Activity Via LSASS,medium,test,rules,1,T1003.001
+SDWIN-190319131123,64e8e417-c19a-475a-8d19-98ea705394cc,Alternate PowerShell Hosts - PowerShell Module,medium,test,rules,163,T1059.001
+SDWIN-190319131123,8eef149c-bd26-49f2-9e5a-9b00e3af499b,Pass the Hash Activity 2,medium,stable,rules,1,T1550.002
+SDWIN-190319131123,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,11,T1053.005
+SDWIN-190319131123,962fe167-e48d-4fd6-9974-11e5b9a5d6d1,LSASS Access From Non System Account,medium,test,rules,1,T1003.001
+SDWIN-190319131123,bbb9495b-58fc-4016-b9df-9a3a1b67ca82,Password Policy Discovery With Get-AdDefaultDomainPasswordPolicy,low,test,rules,1,T1201
+SDWIN-190319131123,def8b624-e08f-4ae1-8612-1ba21190da6b,Outgoing Logon with New Credentials,low,test,rules,1,T1550
+SDWIN-190319145126,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,8,T1531
+SDWIN-190319145126,7ec2c172-dceb-4c10-92c9-87c1881b7e18,HackTool - Rubeus Execution - Generic,critical,stable,rules,2,T1003;T1550.003;T1558.003
+SDWIN-190319145126,e54979bd-c5f9-4d6c-967b-a04b19ac4c74,Uncommon Outbound Kerberos Connection,medium,test,rules,1,T1550.003;T1558
+SDWIN-190319145126,eca91c7c-9214-47b9-b4c5-cb1d7e4f2350,Uncommon Outbound Kerberos Connection - Security,medium,test,rules,1,T1558.003
+SDWIN-190403133337,092bc4b9-3d1d-43b4-a6b4-8c8acd83522f,PowerShell Core DLL Loaded By Non PowerShell Process,medium,test,rules,1,T1059.001
+SDWIN-190403133337,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,35,T1531
+SDWIN-190403133337,1027d292-dd87-4a1a-8701-2abe04d7783c,PSScriptPolicyTest Creation By Uncommon Process,medium,test,rules,2,
+SDWIN-190403133337,57712d7a-679c-4a41-a913-87e7175ae429,SC.EXE Query Execution - Generic,low,test,rules-threat-hunting,1,T1007
+SDWIN-190403133337,58cb02d5-78ce-4692-b3e1-dce850aae41a,Alternate PowerShell Hosts Pipe,medium,test,rules,1,T1059.001
+SDWIN-190403133337,64e8e417-c19a-475a-8d19-98ea705394cc,Alternate PowerShell Hosts - PowerShell Module,medium,test,rules,169,T1059.001
+SDWIN-190403133337,6b98b92b-4f00-4f62-b4fe-4d1920215771,Potential DLL Sideloading Of Non-Existent DLLs From System Folders,high,test,rules,1,T1574.001
+SDWIN-190403133337,7047d730-036f-4f40-b9d8-1c63e36d5e62,Potential Binary Or Script Dropper Via PowerShell,medium,test,rules,1,
+SDWIN-190403133337,81bcb81b-5b1f-474b-b373-52c871aaa7b1,Stop Windows Service Via Sc.EXE - Generic,low,test,rules,2,T1489
+SDWIN-190403133337,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,23,T1053.005
+SDWIN-190403133337,ac7102b4-9e1e-4802-9b4f-17c5524c015c,New PowerShell Instance Created,informational,test,rules,1,T1059.001
+SDWIN-190403133337,b210394c-ba12-4f89-9117-44a2464b9511,SMB Create Remote File Admin Share,high,test,rules,1,T1021.002
+SDWIN-190403133337,b8fd0e93-ff58-4cbd-8f48-1c114e342e62,Windows Binaries Write Suspicious Extensions,high,test,rules,1,T1036
+SDWIN-190403133337,bbb9495b-58fc-4016-b9df-9a3a1b67ca82,Password Policy Discovery With Get-AdDefaultDomainPasswordPolicy,low,test,rules,1,T1201
+SDWIN-190403133337,df6ecb8b-7822-4f4b-b412-08f524b4576c,Creation Of Non-Existent System DLL,medium,test,rules,2,T1574.001
+SDWIN-190518182022,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,2,T1531
+SDWIN-190518182022,1e33157c-53b1-41ad-bbcc-780b80b58288,WSF/JSE/JS/VBA/VBE File Execution Via Cscript/Wscript - Generic,medium,test,rules-threat-hunting,2,T1059.005;T1059.007
+SDWIN-190518182022,1f21ec3f-810d-4b0e-8045-322202e22b4b,Network Connection Initiated By PowerShell Process,low,test,rules-threat-hunting,1,T1059.001
+SDWIN-190518182022,502b42de-4306-40b4-9596-6f590c81f073,Local Accounts Discovery - Generic,low,test,rules,2,T1033;T1087.001
+SDWIN-190518182022,79f4ede3-402e-41c8-bc3e-ebbf5f162581,HackTool - Empire PowerShell Launch Parameters - Generic,high,test,rules,2,T1059.001
+SDWIN-190518182022,95eadcb2-92e4-4ed1-9031-92547773a6db,Suspicious PowerShell Invocation From Script Engines - Generic,medium,test,rules,2,T1059.001
+SDWIN-190518182022,ac7102b4-9e1e-4802-9b4f-17c5524c015c,New PowerShell Instance Created,informational,test,rules,1,T1059.001
+SDWIN-190518182022,ae7fbf8e-f3cb-49fd-8db4-5f3bed522c71,Suspicious PowerShell Invocations - Specific,high,test,rules,1,T1059.001
+SDWIN-190518182022,c86133ad-4725-4bd0-8170-210788e0a7ba,Net WebClient Casing Anomalies - Generic,high,test,rules,2,T1059.001
+SDWIN-190518182022,d0d28567-4b9a-45e2-8bbc-fb1b66a1f7f6,Unusually Long PowerShell CommandLine - Generic,low,test,rules-threat-hunting,2,T1059.001
+SDWIN-190518182022,e0d6c087-2d1c-47fd-8799-3904103c5a98,AMSI Bypass Pattern Assembly GetType,high,test,rules,1,T1685
+SDWIN-190518182022,f4bbd493-b796-416e-bbf2-121235348529,Non Interactive PowerShell Process Spawned - Generic,low,test,rules,2,T1059.001
+SDWIN-190518182022,fb843269-508c-4b76-8b8d-88679db22ce7,Suspicious Execution of Powershell with Base64 - Generic,medium,test,rules,2,T1059.001
+SDWIN-190518184306,00bb5bd5-1379-4fcf-a965-a5b6f7478064,Windows Firewall Settings Have Been Changed,low,test,rules,1,T1686.003
+SDWIN-190518184306,05936ce2-ee05-4dae-9d03-9a391cf2d2c6,WMI Persistence - Command Line Event Consumer,high,test,rules,1,T1546.003
+SDWIN-190518184306,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,80,T1531
+SDWIN-190518184306,0f06a3a5-6a09-413f-8743-e6cf35561297,WMI Event Subscription,medium,test,rules,3,T1546.003
+SDWIN-190518184306,1027d292-dd87-4a1a-8701-2abe04d7783c,PSScriptPolicyTest Creation By Uncommon Process,medium,test,rules,2,
+SDWIN-190518184306,12ba6a38-adb3-4d6b-91ba-a7fb248e3199,Password Policy Enumerated,medium,test,rules,13,T1201
+SDWIN-190518184306,178e615d-e666-498b-9630-9ed363038101,Elevated System Shell Spawned From Uncommon Parent Location - Generic,medium,test,rules,6,T1059
+SDWIN-190518184306,259a9cdf-c4dd-4fa2-b243-2269e5ab18a2,External Remote RDP Logon from Public IP,medium,test,rules,2,T1078;T1110;T1133
+SDWIN-190518184306,2617e7ed-adb7-40ba-b0f3-8f9945fe6c09,Suspicious SYSTEM User Process Creation - Generic,high,test,rules,1,T1003;T1027;T1134
+SDWIN-190518184306,4a1b6da0-d94f-4fc3-98fc-2d9cb9e5ee76,Potentially Suspicious AccessMask Requested From LSASS,medium,test,rules,6,T1003.001
+SDWIN-190518184306,502b42de-4306-40b4-9596-6f590c81f073,Local Accounts Discovery - Generic,low,test,rules,2,T1033;T1087.001
+SDWIN-190518184306,558eebe5-f2ba-4104-b339-36f7902bcc1a,File Creation Date Changed to Another Year,low,test,rules-threat-hunting,91,T1070.006
+SDWIN-190518184306,58cb02d5-78ce-4692-b3e1-dce850aae41a,Alternate PowerShell Hosts Pipe,medium,test,rules,1,T1059.001
+SDWIN-190518184306,5af54681-df95-4c26-854f-2565e13cfab0,Successful Account Login Via WMI,low,stable,rules,1,T1047
+SDWIN-190518184306,5ef9853e-4d0e-4a70-846f-a9ca37d876da,Potential Credential Dumping Activity Via LSASS,medium,test,rules,2,T1003.001
+SDWIN-190518184306,61065c72-5d7d-44ef-bf41-6a36684b545f,Elevated System Shell Spawned - Generic,medium,test,rules-threat-hunting,8,T1059
+SDWIN-190518184306,64e8e417-c19a-475a-8d19-98ea705394cc,Alternate PowerShell Hosts - PowerShell Module,medium,test,rules,1,T1059.001
+SDWIN-190518184306,671bb7e3-a020-4824-a00e-2ee5b55f385e,WMI Module Loaded By Uncommon Process,low,test,rules-threat-hunting,4,T1047
+SDWIN-190518184306,678dfc63-fefb-47a5-a04c-26bcf8cc9f65,Uncommon GrantedAccess Flags On LSASS,medium,test,rules-threat-hunting,3,T1003.001
+SDWIN-190518184306,692f0bec-83ba-4d04-af7e-e884a96059b6,Potential WMI Lateral Movement WmiPrvSE Spawned PowerShell - Generic,medium,stable,rules,2,T1047;T1059.001
+SDWIN-190518184306,78d5cab4-557e-454f-9fb9-a222bd0d5edc,External Remote SMB Logon from Public IP,high,test,rules,1,T1078;T1110;T1133
+SDWIN-190518184306,79ce34ca-af29-4d0e-b832-fc1b377020db,Whoami.EXE Execution From Privileged Process - Generic,high,test,rules,1,T1033
+SDWIN-190518184306,85b88e05-dadc-430b-8a9e-53ff1cd30aae,Potentially Suspicious Desktop Background Change Via Registry - Generic,medium,test,rules,1,T1112;T1491.001
+SDWIN-190518184306,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,179,T1053.005
+SDWIN-190518184306,96f697b0-b499-4e5d-9908-a67bec11cdb6,Removal of Potential COM Hijacking Registry Keys,medium,test,rules,1,T1112
+SDWIN-190518184306,a762e74f-4dce-477c-b023-4ed81df600f9,Scheduled Task Created - FileCreation,low,test,rules-threat-hunting,1,T1053.005
+SDWIN-190518184306,a982fc9c-6333-4ffb-a51d-addb04e8b529,Windows Defender Exclusions Added - Registry - Generic,medium,test,rules,13,T1685
+SDWIN-190518184306,ac7102b4-9e1e-4802-9b4f-17c5524c015c,New PowerShell Instance Created,informational,test,rules,2,T1059.001
+SDWIN-190518184306,ad1f4bb9-8dfb-4765-adb6-2a7cfb6c0f94,Suspicious WSMAN Provider Image Loads,medium,test,rules,1,T1021.003;T1059.001
+SDWIN-190518184306,ae7fbf8e-f3cb-49fd-8db4-5f3bed522c71,Suspicious PowerShell Invocations - Specific,high,test,rules,1,T1059.001
+SDWIN-190518184306,bafd07c6-3ea5-454a-b4be-058fbb073de7,Potential Executable Run Itself As Sacrificial Process - Generic,low,experimental,rules-threat-hunting,4,T1055
+SDWIN-190518184306,bbb80e91-5746-4fbe-8898-122e2cafdbf4,Suspicious PowerShell Invocations - Generic - PowerShell Module,high,test,rules,171,T1059.001
+SDWIN-190518184306,c86133ad-4725-4bd0-8170-210788e0a7ba,Net WebClient Casing Anomalies - Generic,high,test,rules,2,T1059.001
+SDWIN-190518184306,d0d28567-4b9a-45e2-8bbc-fb1b66a1f7f6,Unusually Long PowerShell CommandLine - Generic,low,test,rules-threat-hunting,2,T1059.001
+SDWIN-190518184306,d29ada0f-af45-4f27-8f32-f7b77c3dbc4e,HackTool - SysmonEnte Execution,high,test,rules,46,T1685.001
+SDWIN-190518184306,d3c3861d-c504-4c77-ba55-224ba82d0118,New Network Trace Capture Started Via Netsh.EXE - Generic,medium,test,rules,2,T1040
+SDWIN-190518184306,db809f10-56ce-4420-8c86-d6a7d793c79c,Potential Defense Evasion Via Raw Disk Access By Uncommon Tools,low,test,rules,3,T1006
+SDWIN-190518184306,e0d6c087-2d1c-47fd-8799-3904103c5a98,AMSI Bypass Pattern Assembly GetType,high,test,rules,1,T1685
+SDWIN-190518184306,e700ff14-1bff-4d1d-9438-738dff5f0466,BITS Client BitsProxy DLL Loaded By Uncommon Process,low,experimental,rules-threat-hunting,1,T1197
+SDWIN-190518184306,f4bbd493-b796-416e-bbf2-121235348529,Non Interactive PowerShell Process Spawned - Generic,low,test,rules,2,T1059.001
+SDWIN-190518184306,facd1549-e416-48e0-b8c4-41d7215eedc8,Amsi.DLL Load By Uncommon Process,low,test,rules-threat-hunting,1,T1490
+SDWIN-190518184306,fb843269-508c-4b76-8b8d-88679db22ce7,Suspicious Execution of Powershell with Base64 - Generic,medium,test,rules,2,T1059.001
+SDWIN-190518184306,fe21810c-2a8c-478f-8dd3-5a287fb2a0e0,Suspicious Scripting in a WMI Consumer,high,test,rules,1,T1059.005
+SDWIN-190518200432,092bc4b9-3d1d-43b4-a6b4-8c8acd83522f,PowerShell Core DLL Loaded By Non PowerShell Process,medium,test,rules,1,T1059.001
+SDWIN-190518200432,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,8,T1531
+SDWIN-190518200432,1027d292-dd87-4a1a-8701-2abe04d7783c,PSScriptPolicyTest Creation By Uncommon Process,medium,test,rules,2,
+SDWIN-190518200432,1f21ec3f-810d-4b0e-8045-322202e22b4b,Network Connection Initiated By PowerShell Process,low,test,rules-threat-hunting,22,T1059.001
+SDWIN-190518200432,250ae82f-736e-4844-a68b-0b5e8cc887da,Potential Shellcode Injection,medium,test,rules-threat-hunting,1,T1055
+SDWIN-190518200432,58cb02d5-78ce-4692-b3e1-dce850aae41a,Alternate PowerShell Hosts Pipe,medium,test,rules,1,T1059.001
+SDWIN-190518200432,64e8e417-c19a-475a-8d19-98ea705394cc,Alternate PowerShell Hosts - PowerShell Module,medium,test,rules,81,T1059.001
+SDWIN-190518200432,a1a144b7-5c9b-4853-a559-2172be8d4a03,Remote Thread Creation In Uncommon Target Image,medium,test,rules,88,T1055.003
+SDWIN-190518200432,ac7102b4-9e1e-4802-9b4f-17c5524c015c,New PowerShell Instance Created,informational,test,rules,1,T1059.001
+SDWIN-190518200432,ad1f4bb9-8dfb-4765-adb6-2a7cfb6c0f94,Suspicious WSMAN Provider Image Loads,medium,test,rules,1,T1021.003;T1059.001
+SDWIN-190518200432,ae7fbf8e-f3cb-49fd-8db4-5f3bed522c71,Suspicious PowerShell Invocations - Specific,high,test,rules,1,T1059.001
+SDWIN-190518200432,e0d6c087-2d1c-47fd-8799-3904103c5a98,AMSI Bypass Pattern Assembly GetType,high,test,rules,1,T1685
+SDWIN-190518200432,e81528db-fc02-45e8-8e98-4e84aba1f10b,Network Connection Initiated Via Notepad.EXE,high,test,rules,16,T1055
+SDWIN-190518200432,eeb2e3dc-c1f4-40dd-9bd5-149ee465ad50,Remote Thread Creation Via PowerShell,medium,test,rules-threat-hunting,88,T1059.001
+SDWIN-190518201207,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,10,T1531
+SDWIN-190518201207,183e7ea8-ac4b-4c23-9aec-b3dac4e401ac,Net.EXE Execution - Generic,low,test,rules-threat-hunting,4,T1007;T1018;T1021.002;T1049;T1069.001;T1069.002;T1087.001;T1087.002;T1135;T1201
+SDWIN-190518201207,35ba1d85-724d-42a3-889f-2e2362bcaf23,AD Privileged Users or Groups Reconnaissance,high,test,rules,2,T1087.002
+SDWIN-190518201207,d95de845-b83c-4a9a-8a6a-4fc802ebf6c0,Suspicious Group And Account Reconnaissance Activity Using Net.EXE - Generic,medium,test,rules,4,T1087.001;T1087.002
+SDWIN-190518202151,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,10,T1531
+SDWIN-190518202151,0f920ebe-7aea-4c54-b202-9aa0c609cfe5,Potential Credential Dumping Attempt Via PowerShell,medium,test,rules-threat-hunting,1,T1003.001
+SDWIN-190518202151,1f21ec3f-810d-4b0e-8045-322202e22b4b,Network Connection Initiated By PowerShell Process,low,test,rules-threat-hunting,35,T1059.001
+SDWIN-190518202151,4a1b6da0-d94f-4fc3-98fc-2d9cb9e5ee76,Potentially Suspicious AccessMask Requested From LSASS,medium,test,rules,2,T1003.001
+SDWIN-190518202151,502b42de-4306-40b4-9596-6f590c81f073,Local Accounts Discovery - Generic,low,test,rules,2,T1033;T1087.001
+SDWIN-190518202151,962fe167-e48d-4fd6-9974-11e5b9a5d6d1,LSASS Access From Non System Account,medium,test,rules,1,T1003.001
+SDWIN-190518210125,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,7,T1531
+SDWIN-190518210125,178e615d-e666-498b-9630-9ed363038101,Elevated System Shell Spawned From Uncommon Parent Location - Generic,medium,test,rules,1,T1059
+SDWIN-190518210125,1f21ec3f-810d-4b0e-8045-322202e22b4b,Network Connection Initiated By PowerShell Process,low,test,rules-threat-hunting,1,T1059.001
+SDWIN-190518210125,2617e7ed-adb7-40ba-b0f3-8f9945fe6c09,Suspicious SYSTEM User Process Creation - Generic,high,test,rules,3,T1003;T1027;T1134
+SDWIN-190518210125,2a926e6a-4b81-4011-8a96-e36cc8c04302,PowerShell Scripts Installed as Services - Security,high,test,rules,1,T1569.002
+SDWIN-190518210125,4a1b6da0-d94f-4fc3-98fc-2d9cb9e5ee76,Potentially Suspicious AccessMask Requested From LSASS,medium,test,rules,2,T1003.001
+SDWIN-190518210125,4a5f5a5e-ac01-474b-9b4e-d61298c9df1d,PowerShell as a Service in Registry - Generic,high,test,rules,1,T1569.002
+SDWIN-190518210125,502b42de-4306-40b4-9596-6f590c81f073,Local Accounts Discovery - Generic,low,test,rules,2,T1033;T1087.001
+SDWIN-190518210125,5a6b7c8d-9e0f-1a2b-3c4d-5e6f7a8b9c0d,Cmd Launched with Hidden Start Flags to Suspicious Targets - Generic,medium,experimental,rules,4,T1564.003
+SDWIN-190518210125,61065c72-5d7d-44ef-bf41-6a36684b545f,Elevated System Shell Spawned - Generic,medium,test,rules-threat-hunting,4,T1059
+SDWIN-190518210125,61a7697c-cb79-42a8-a2ff-5f0cdfae0130,Potential CobaltStrike Service Installations - Registry - Generic,high,test,rules,1,T1021.002;T1543.003;T1569.002
+SDWIN-190518210125,678dfc63-fefb-47a5-a04c-26bcf8cc9f65,Uncommon GrantedAccess Flags On LSASS,medium,test,rules-threat-hunting,1,T1003.001
+SDWIN-190518210125,79ce34ca-af29-4d0e-b832-fc1b377020db,Whoami.EXE Execution From Privileged Process - Generic,high,test,rules,1,T1033
+SDWIN-190518210125,79f4ede3-402e-41c8-bc3e-ebbf5f162581,HackTool - Empire PowerShell Launch Parameters - Generic,high,test,rules,6,T1059.001
+SDWIN-190518210125,ac7102b4-9e1e-4802-9b4f-17c5524c015c,New PowerShell Instance Created,informational,test,rules,1,T1059.001
+SDWIN-190518210125,ae7fbf8e-f3cb-49fd-8db4-5f3bed522c71,Suspicious PowerShell Invocations - Specific,high,test,rules,1,T1059.001
+SDWIN-190518210125,bafd07c6-3ea5-454a-b4be-058fbb073de7,Potential Executable Run Itself As Sacrificial Process - Generic,low,experimental,rules-threat-hunting,1,T1055
+SDWIN-190518210125,c86133ad-4725-4bd0-8170-210788e0a7ba,Net WebClient Casing Anomalies - Generic,high,test,rules,2,T1059.001
+SDWIN-190518210125,d0d28567-4b9a-45e2-8bbc-fb1b66a1f7f6,Unusually Long PowerShell CommandLine - Generic,low,test,rules-threat-hunting,2,T1059.001
+SDWIN-190518210125,d522eca2-2973-4391-a3e0-ef0374321dae,Abused Debug Privilege by Arbitrary Parent Processes - Generic,high,test,rules,1,T1548
+SDWIN-190518210125,d7a95147-145f-4678-b85d-d1ff4a3bb3f6,CobaltStrike Service Installations - Security,high,test,rules,1,T1021.002;T1543.003;T1569.002
+SDWIN-190518210125,e0d6c087-2d1c-47fd-8799-3904103c5a98,AMSI Bypass Pattern Assembly GetType,high,test,rules,1,T1685
+SDWIN-190518210125,f4bbd493-b796-416e-bbf2-121235348529,Non Interactive PowerShell Process Spawned - Generic,low,test,rules,2,T1059.001
+SDWIN-190518210125,fb843269-508c-4b76-8b8d-88679db22ce7,Suspicious Execution of Powershell with Base64 - Generic,medium,test,rules,2,T1059.001
+SDWIN-190518210652,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,9,T1531
+SDWIN-190518210652,13addce7-47b2-4ca0-a98f-1de964d1d669,SCM Database Handle Failure,medium,test,rules,1,T1010
+SDWIN-190518210652,1f21ec3f-810d-4b0e-8045-322202e22b4b,Network Connection Initiated By PowerShell Process,low,test,rules-threat-hunting,2,T1059.001
+SDWIN-190518210652,2617e7ed-adb7-40ba-b0f3-8f9945fe6c09,Suspicious SYSTEM User Process Creation - Generic,high,test,rules,2,T1003;T1027;T1134
+SDWIN-190518210652,2a926e6a-4b81-4011-8a96-e36cc8c04302,PowerShell Scripts Installed as Services - Security,high,test,rules,1,T1569.002
+SDWIN-190518210652,4a5f5a5e-ac01-474b-9b4e-d61298c9df1d,PowerShell as a Service in Registry - Generic,high,test,rules,1,T1569.002
+SDWIN-190518210652,502b42de-4306-40b4-9596-6f590c81f073,Local Accounts Discovery - Generic,low,test,rules,2,T1033;T1087.001
+SDWIN-190518210652,5a6b7c8d-9e0f-1a2b-3c4d-5e6f7a8b9c0d,Cmd Launched with Hidden Start Flags to Suspicious Targets - Generic,medium,experimental,rules,2,T1564.003
+SDWIN-190518210652,61065c72-5d7d-44ef-bf41-6a36684b545f,Elevated System Shell Spawned - Generic,medium,test,rules-threat-hunting,2,T1059
+SDWIN-190518210652,61a7697c-cb79-42a8-a2ff-5f0cdfae0130,Potential CobaltStrike Service Installations - Registry - Generic,high,test,rules,1,T1021.002;T1543.003;T1569.002
+SDWIN-190518210652,79ce34ca-af29-4d0e-b832-fc1b377020db,Whoami.EXE Execution From Privileged Process - Generic,high,test,rules,1,T1033
+SDWIN-190518210652,79f4ede3-402e-41c8-bc3e-ebbf5f162581,HackTool - Empire PowerShell Launch Parameters - Generic,high,test,rules,4,T1059.001
+SDWIN-190518210652,7d0d0329-0ef1-4e84-a9f5-49500f9d7c6c,Malicious PowerShell Commandlets - PoshModule,high,test,rules,1,T1059.001;T1069;T1069.001;T1069.002;T1087;T1087.001;T1087.002;T1482
+SDWIN-190518210652,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,4,T1053.005
+SDWIN-190518210652,ac7102b4-9e1e-4802-9b4f-17c5524c015c,New PowerShell Instance Created,informational,test,rules,1,T1059.001
+SDWIN-190518210652,ae7fbf8e-f3cb-49fd-8db4-5f3bed522c71,Suspicious PowerShell Invocations - Specific,high,test,rules,1,T1059.001
+SDWIN-190518210652,c86133ad-4725-4bd0-8170-210788e0a7ba,Net WebClient Casing Anomalies - Generic,high,test,rules,2,T1059.001
+SDWIN-190518210652,d0d28567-4b9a-45e2-8bbc-fb1b66a1f7f6,Unusually Long PowerShell CommandLine - Generic,low,test,rules-threat-hunting,2,T1059.001
+SDWIN-190518210652,d522eca2-2973-4391-a3e0-ef0374321dae,Abused Debug Privilege by Arbitrary Parent Processes - Generic,high,test,rules,1,T1548
+SDWIN-190518210652,d7a95147-145f-4678-b85d-d1ff4a3bb3f6,CobaltStrike Service Installations - Security,high,test,rules,1,T1021.002;T1543.003;T1569.002
+SDWIN-190518210652,e0d6c087-2d1c-47fd-8799-3904103c5a98,AMSI Bypass Pattern Assembly GetType,high,test,rules,1,T1685
+SDWIN-190518210652,f4bbd493-b796-416e-bbf2-121235348529,Non Interactive PowerShell Process Spawned - Generic,low,test,rules,2,T1059.001
+SDWIN-190518210652,fb843269-508c-4b76-8b8d-88679db22ce7,Suspicious Execution of Powershell with Base64 - Generic,medium,test,rules,2,T1059.001
+SDWIN-190518211052,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,5,T1531
+SDWIN-190518211052,178e615d-e666-498b-9630-9ed363038101,Elevated System Shell Spawned From Uncommon Parent Location - Generic,medium,test,rules,1,T1059
+SDWIN-190518211052,1f21ec3f-810d-4b0e-8045-322202e22b4b,Network Connection Initiated By PowerShell Process,low,test,rules-threat-hunting,2,T1059.001
+SDWIN-190518211052,3a525307-d100-48ae-b3b9-0964699d7f97,DMP/HDMP File Creation,low,test,rules-threat-hunting,2,
+SDWIN-190518211052,502b42de-4306-40b4-9596-6f590c81f073,Local Accounts Discovery - Generic,low,test,rules,2,T1033;T1087.001
+SDWIN-190518211052,5a6b7c8d-9e0f-1a2b-3c4d-5e6f7a8b9c0d,Cmd Launched with Hidden Start Flags to Suspicious Targets - Generic,medium,experimental,rules,4,T1564.003
+SDWIN-190518211052,61065c72-5d7d-44ef-bf41-6a36684b545f,Elevated System Shell Spawned - Generic,medium,test,rules-threat-hunting,1,T1059
+SDWIN-190518211052,671bb7e3-a020-4824-a00e-2ee5b55f385e,WMI Module Loaded By Uncommon Process,low,test,rules-threat-hunting,4,T1047
+SDWIN-190518211052,678dfc63-fefb-47a5-a04c-26bcf8cc9f65,Uncommon GrantedAccess Flags On LSASS,medium,test,rules-threat-hunting,1,T1003.001
+SDWIN-190518211052,79f4ede3-402e-41c8-bc3e-ebbf5f162581,HackTool - Empire PowerShell Launch Parameters - Generic,high,test,rules,6,T1059.001
+SDWIN-190518211052,85b88e05-dadc-430b-8a9e-53ff1cd30aae,Potentially Suspicious Desktop Background Change Via Registry - Generic,medium,test,rules,1,T1112;T1491.001
+SDWIN-190518211052,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,80,T1053.005
+SDWIN-190518211052,96f697b0-b499-4e5d-9908-a67bec11cdb6,Removal of Potential COM Hijacking Registry Keys,medium,test,rules,2,T1112
+SDWIN-190518211052,ac7102b4-9e1e-4802-9b4f-17c5524c015c,New PowerShell Instance Created,informational,test,rules,1,T1059.001
+SDWIN-190518211052,ae7fbf8e-f3cb-49fd-8db4-5f3bed522c71,Suspicious PowerShell Invocations - Specific,high,test,rules,1,T1059.001
+SDWIN-190518211052,bafd07c6-3ea5-454a-b4be-058fbb073de7,Potential Executable Run Itself As Sacrificial Process - Generic,low,experimental,rules-threat-hunting,6,T1055
+SDWIN-190518211052,c86133ad-4725-4bd0-8170-210788e0a7ba,Net WebClient Casing Anomalies - Generic,high,test,rules,2,T1059.001
+SDWIN-190518211052,d0d28567-4b9a-45e2-8bbc-fb1b66a1f7f6,Unusually Long PowerShell CommandLine - Generic,low,test,rules-threat-hunting,2,T1059.001
+SDWIN-190518211052,e0d6c087-2d1c-47fd-8799-3904103c5a98,AMSI Bypass Pattern Assembly GetType,high,test,rules,1,T1685
+SDWIN-190518211052,f4bbd493-b796-416e-bbf2-121235348529,Non Interactive PowerShell Process Spawned - Generic,low,test,rules,2,T1059.001
+SDWIN-190518211052,facd1549-e416-48e0-b8c4-41d7215eedc8,Amsi.DLL Load By Uncommon Process,low,test,rules-threat-hunting,2,T1490
+SDWIN-190518211052,fb843269-508c-4b76-8b8d-88679db22ce7,Suspicious Execution of Powershell with Base64 - Generic,medium,test,rules,2,T1059.001
+SDWIN-190518211456,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,5,T1531
+SDWIN-190518211456,13acf386-b8c6-4fe0-9a6e-c4756b974698,Remote PowerShell Sessions Network Connections (WinRM),high,test,rules,3,T1059.001
+SDWIN-190518211456,1f21ec3f-810d-4b0e-8045-322202e22b4b,Network Connection Initiated By PowerShell Process,low,test,rules-threat-hunting,4,T1059.001
+SDWIN-190518211456,3037d961-21e9-4732-b27a-637bcc7bf539,Suspicious High IntegrityLevel Conhost Legacy Option - Generic,informational,test,rules,1,T1202
+SDWIN-190518211456,502b42de-4306-40b4-9596-6f590c81f073,Local Accounts Discovery - Generic,low,test,rules,2,T1033;T1087.001
+SDWIN-190518211456,5cc2cda8-f261-4d88-a2de-e9e193c86716,Suspicious Processes Spawned by WinRM - Generic,high,test,rules,2,T1190
+SDWIN-190518211456,734f8d9b-42b8-41b2-bcf5-abaf49d5a3c8,Remote PowerShell Session Host Process (WinRM) - Generic,medium,test,rules,4,T1021.006;T1059.001
+SDWIN-190518211456,79f4ede3-402e-41c8-bc3e-ebbf5f162581,HackTool - Empire PowerShell Launch Parameters - Generic,high,test,rules,2,T1059.001
+SDWIN-190518211456,ac7102b4-9e1e-4802-9b4f-17c5524c015c,New PowerShell Instance Created,informational,test,rules,2,T1059.001
+SDWIN-190518211456,ad1f4bb9-8dfb-4765-adb6-2a7cfb6c0f94,Suspicious WSMAN Provider Image Loads,medium,test,rules,1,T1021.003;T1059.001
+SDWIN-190518211456,ae7fbf8e-f3cb-49fd-8db4-5f3bed522c71,Suspicious PowerShell Invocations - Specific,high,test,rules,1,T1059.001
+SDWIN-190518211456,c539afac-c12a-46ed-b1bd-5a5567c9f045,Potential Remote PowerShell Session Initiated,high,test,rules,3,T1021.006;T1059.001
+SDWIN-190518211456,c86133ad-4725-4bd0-8170-210788e0a7ba,Net WebClient Casing Anomalies - Generic,high,test,rules,2,T1059.001
+SDWIN-190518211456,d0d28567-4b9a-45e2-8bbc-fb1b66a1f7f6,Unusually Long PowerShell CommandLine - Generic,low,test,rules-threat-hunting,2,T1059.001
+SDWIN-190518211456,e0d6c087-2d1c-47fd-8799-3904103c5a98,AMSI Bypass Pattern Assembly GetType,high,test,rules,1,T1685
+SDWIN-190518211456,f4bbd493-b796-416e-bbf2-121235348529,Non Interactive PowerShell Process Spawned - Generic,low,test,rules,2,T1059.001
+SDWIN-190518211456,fb843269-508c-4b76-8b8d-88679db22ce7,Suspicious Execution of Powershell with Base64 - Generic,medium,test,rules,2,T1059.001
+SDWIN-190518213907,092bc4b9-3d1d-43b4-a6b4-8c8acd83522f,PowerShell Core DLL Loaded By Non PowerShell Process,medium,test,rules,1,T1059.001
+SDWIN-190518213907,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,12,T1531
+SDWIN-190518213907,1027d292-dd87-4a1a-8701-2abe04d7783c,PSScriptPolicyTest Creation By Uncommon Process,medium,test,rules,2,
+SDWIN-190518213907,1f21ec3f-810d-4b0e-8045-322202e22b4b,Network Connection Initiated By PowerShell Process,low,test,rules-threat-hunting,3,T1059.001
+SDWIN-190518213907,3037d961-21e9-4732-b27a-637bcc7bf539,Suspicious High IntegrityLevel Conhost Legacy Option - Generic,informational,test,rules,1,T1202
+SDWIN-190518213907,502b42de-4306-40b4-9596-6f590c81f073,Local Accounts Discovery - Generic,low,test,rules,2,T1033;T1087.001
+SDWIN-190518213907,58cb02d5-78ce-4692-b3e1-dce850aae41a,Alternate PowerShell Hosts Pipe,medium,test,rules,1,T1059.001
+SDWIN-190518213907,79f4ede3-402e-41c8-bc3e-ebbf5f162581,HackTool - Empire PowerShell Launch Parameters - Generic,high,test,rules,2,T1059.001
+SDWIN-190518213907,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,4,T1053.005
+SDWIN-190518213907,a762e74f-4dce-477c-b023-4ed81df600f9,Scheduled Task Created - FileCreation,low,test,rules-threat-hunting,1,T1053.005
+SDWIN-190518213907,ac7102b4-9e1e-4802-9b4f-17c5524c015c,New PowerShell Instance Created,informational,test,rules,2,T1059.001
+SDWIN-190518213907,acf2807c-805b-4042-aab9-f86b6ba9cb2b,Dynamic .NET Compilation Via Csc.EXE - Hunting - Generic,medium,test,rules-threat-hunting,4,T1027.004
+SDWIN-190518213907,ad1f4bb9-8dfb-4765-adb6-2a7cfb6c0f94,Suspicious WSMAN Provider Image Loads,medium,test,rules,1,T1021.003;T1059.001
+SDWIN-190518213907,ae7fbf8e-f3cb-49fd-8db4-5f3bed522c71,Suspicious PowerShell Invocations - Specific,high,test,rules,1,T1059.001
+SDWIN-190518213907,b210394c-ba12-4f89-9117-44a2464b9511,SMB Create Remote File Admin Share,high,test,rules,1,T1021.002
+SDWIN-190518213907,c86133ad-4725-4bd0-8170-210788e0a7ba,Net WebClient Casing Anomalies - Generic,high,test,rules,2,T1059.001
+SDWIN-190518213907,d0d28567-4b9a-45e2-8bbc-fb1b66a1f7f6,Unusually Long PowerShell CommandLine - Generic,low,test,rules-threat-hunting,2,T1059.001
+SDWIN-190518213907,d21374ff-f574-44a7-9998-4a8c8bf33d7d,WmiPrvSE Spawned A Process - Generic,medium,stable,rules,2,T1047
+SDWIN-190518213907,dcaa3f04-70c3-427a-80b4-b870d73c94c4,Dynamic .NET Compilation Via Csc.EXE - Generic,medium,test,rules,4,T1027.004
+SDWIN-190518213907,e0d6c087-2d1c-47fd-8799-3904103c5a98,AMSI Bypass Pattern Assembly GetType,high,test,rules,1,T1685
+SDWIN-190518213907,e4a74e34-ecde-4aab-b2fb-9112dd01aed0,Dynamic CSharp Compile Artefact,low,test,rules,2,T1027.004
+SDWIN-190518213907,f4bbd493-b796-416e-bbf2-121235348529,Non Interactive PowerShell Process Spawned - Generic,low,test,rules,2,T1059.001
+SDWIN-190518213907,facd1549-e416-48e0-b8c4-41d7215eedc8,Amsi.DLL Load By Uncommon Process,low,test,rules-threat-hunting,1,T1490
+SDWIN-190518213907,fb843269-508c-4b76-8b8d-88679db22ce7,Suspicious Execution of Powershell with Base64 - Generic,medium,test,rules,2,T1059.001
+SDWIN-190518221344,052ec6f6-1adc-41e6-907a-f1c813478bee,CreateRemoteThread API and LoadLibrary,medium,test,rules-threat-hunting,1,T1055.001
+SDWIN-190518221344,092bc4b9-3d1d-43b4-a6b4-8c8acd83522f,PowerShell Core DLL Loaded By Non PowerShell Process,medium,test,rules,2,T1059.001
+SDWIN-190518221344,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,19,T1531
+SDWIN-190518221344,1027d292-dd87-4a1a-8701-2abe04d7783c,PSScriptPolicyTest Creation By Uncommon Process,medium,test,rules,4,
+SDWIN-190518221344,12ba6a38-adb3-4d6b-91ba-a7fb248e3199,Password Policy Enumerated,medium,test,rules,11,T1201
+SDWIN-190518221344,1f21ec3f-810d-4b0e-8045-322202e22b4b,Network Connection Initiated By PowerShell Process,low,test,rules-threat-hunting,51,T1059.001
+SDWIN-190518221344,250ae82f-736e-4844-a68b-0b5e8cc887da,Potential Shellcode Injection,medium,test,rules-threat-hunting,1,T1055
+SDWIN-190518221344,58cb02d5-78ce-4692-b3e1-dce850aae41a,Alternate PowerShell Hosts Pipe,medium,test,rules,1,T1059.001
+SDWIN-190518221344,64e8e417-c19a-475a-8d19-98ea705394cc,Alternate PowerShell Hosts - PowerShell Module,medium,test,rules,415,T1059.001
+SDWIN-190518221344,666ecfc7-229d-42b8-821e-1a8f8cb7057c,System Drawing DLL Load,low,test,rules-threat-hunting,1,T1113
+SDWIN-190518221344,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,35,T1053.005
+SDWIN-190518221344,a1a144b7-5c9b-4853-a559-2172be8d4a03,Remote Thread Creation In Uncommon Target Image,medium,test,rules,1,T1055.003
+SDWIN-190518221344,ac7102b4-9e1e-4802-9b4f-17c5524c015c,New PowerShell Instance Created,informational,test,rules,2,T1059.001
+SDWIN-190518221344,ad1f4bb9-8dfb-4765-adb6-2a7cfb6c0f94,Suspicious WSMAN Provider Image Loads,medium,test,rules,2,T1021.003;T1059.001
+SDWIN-190518221344,b3ad3c0f-c949-47a1-a30e-b0491ccae876,Uncommon Connection to Active Directory Web Services,medium,test,rules,5,T1087
+SDWIN-190518221344,bbb9495b-58fc-4016-b9df-9a3a1b67ca82,Password Policy Discovery With Get-AdDefaultDomainPasswordPolicy,low,test,rules,1,T1201
+SDWIN-190518221344,eeb2e3dc-c1f4-40dd-9bd5-149ee465ad50,Remote Thread Creation Via PowerShell,medium,test,rules-threat-hunting,1,T1059.001
+SDWIN-190518221344,f3a98ce4-6164-4dd4-867c-4d83de7eca51,Powershell Token Obfuscation - Powershell,medium,test,rules-threat-hunting,1,T1027.009
+SDWIN-190518224039,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,7,T1531
+SDWIN-190518224039,13addce7-47b2-4ca0-a98f-1de964d1d669,SCM Database Handle Failure,medium,test,rules,2,T1010
+SDWIN-190518224039,1f21ec3f-810d-4b0e-8045-322202e22b4b,Network Connection Initiated By PowerShell Process,low,test,rules-threat-hunting,4,T1059.001
+SDWIN-190518224039,7d0d0329-0ef1-4e84-a9f5-49500f9d7c6c,Malicious PowerShell Commandlets - PoshModule,high,test,rules,67,T1059.001;T1069;T1069.001;T1069.002;T1087;T1087.001;T1087.002;T1482
+SDWIN-190518224039,dae8171c-5ec6-4396-b210-8466585b53e9,SCM Database Privileged Operation,medium,test,rules,1,T1548
+SDWIN-190518230752,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,1,T1531
+SDWIN-190518230752,502b42de-4306-40b4-9596-6f590c81f073,Local Accounts Discovery - Generic,low,test,rules,2,T1033;T1087.001
+SDWIN-190518230752,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,32,T1053.005
+SDWIN-190518230752,9e099d99-44c2-42b6-a6d8-54c3545cab29,HackTool - Mimikatz Kirbi File Creation,critical,test,rules,1,T1558
+SDWIN-190518230752,bafd07c6-3ea5-454a-b4be-058fbb073de7,Potential Executable Run Itself As Sacrificial Process - Generic,low,experimental,rules-threat-hunting,4,T1055
+SDWIN-190518235535,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,2,T1531
+SDWIN-190518235535,4ac1f50b-3bd0-4968-902d-868b4647937e,DPAPI Domain Backup Key Extraction,high,test,rules,4,T1003.004
+SDWIN-190518235535,502b42de-4306-40b4-9596-6f590c81f073,Local Accounts Discovery - Generic,low,test,rules,2,T1033;T1087.001
+SDWIN-190518235535,7892ec59-c5bb-496d-8968-e5d210ca3ac4,DPAPI Backup Keys And Certificate Export Activity IOC,high,test,rules,3,T1552.004;T1555
+SDWIN-190518235535,dca1b3e8-e043-4ec8-85d7-867f334b5724,PFX File Creation,low,test,rules-threat-hunting,1,T1552.004
+SDWIN-190519005224,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,26,T1531
+SDWIN-190519005224,64e8e417-c19a-475a-8d19-98ea705394cc,Alternate PowerShell Hosts - PowerShell Module,medium,test,rules,273,T1059.001
+SDWIN-190519005224,7d0d0329-0ef1-4e84-a9f5-49500f9d7c6c,Malicious PowerShell Commandlets - PoshModule,high,test,rules,4,T1059.001;T1069;T1069.001;T1069.002;T1087;T1087.001;T1087.002;T1482
+SDWIN-190519005224,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,4,T1053.005
+SDWIN-190519005224,bbb9495b-58fc-4016-b9df-9a3a1b67ca82,Password Policy Discovery With Get-AdDefaultDomainPasswordPolicy,low,test,rules,1,T1201
+SDWIN-190625103712,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,5,T1531
+SDWIN-190625103712,0f920ebe-7aea-4c54-b202-9aa0c609cfe5,Potential Credential Dumping Attempt Via PowerShell,medium,test,rules-threat-hunting,1478,T1003.001
+SDWIN-190625103712,502b42de-4306-40b4-9596-6f590c81f073,Local Accounts Discovery - Generic,low,test,rules,2,T1033;T1087.001
+SDWIN-190625103712,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,4,T1053.005
+SDWIN-190625103712,9a4ff3b8-6187-4fd2-8e8b-e0eae1129495,SysKey Registry Keys Access,high,test,rules,8,T1012
+SDWIN-190625133822,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,1,T1531
+SDWIN-190625133822,fd877b94-9bb5-4191-bb25-d79cbd93c167,Dumping of Sensitive Hives Via Reg.EXE - Generic,high,test,rules,2,T1003.002;T1003.004;T1003.005
+SDWIN-191027055035,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,14,T1531
+SDWIN-191027055035,3a525307-d100-48ae-b3b9-0964699d7f97,DMP/HDMP File Creation,low,test,rules-threat-hunting,1,
+SDWIN-191027055035,5ef9853e-4d0e-4a70-846f-a9ca37d876da,Potential Credential Dumping Activity Via LSASS,medium,test,rules,2,T1003.001
+SDWIN-191027055035,69ca12af-119d-44ed-b50f-a47af0ebc364,LSASS Process Memory Dump Creation Via Taskmgr.EXE,high,test,rules,1,T1003.001
+SDWIN-191027055035,78d5cab4-557e-454f-9fb9-a222bd0d5edc,External Remote SMB Logon from Public IP,high,test,rules,1,T1078;T1110;T1133
+SDWIN-191027055035,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,12,T1053.005
+SDWIN-191027055035,962fe167-e48d-4fd6-9974-11e5b9a5d6d1,LSASS Access From Non System Account,medium,test,rules,1,T1003.001
+SDWIN-191027055035,a5a2d357-1ab8-4675-a967-ef9990a59391,LSASS Process Memory Dump Files,high,test,rules,1,T1003.001
+SDWIN-191027223020,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,7,T1531
+SDWIN-191027223020,b5de0c9a-6f19-43e0-af4e-55ad01f550af,Unsigned DLL Loaded by Windows Utility,medium,test,rules,6,T1218.010;T1218.011
+SDWIN-191027223020,c260b6db-48ba-4b4a-a76f-2f67644e99d2,HackTool - Covenant PowerShell Launcher - Generic,high,test,rules,4,T1059.001;T1564.003
+SDWIN-191027223020,d042284c-a296-4988-9be5-f424fadcc28c,Suspicious Execution of InstallUtil Without Log - Generic,medium,test,rules,2,
+SDWIN-191027223020,facd1549-e416-48e0-b8c4-41d7215eedc8,Amsi.DLL Load By Uncommon Process,low,test,rules-threat-hunting,1,T1490
+SDWIN-191225045202,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,5,T1531
+SDWIN-191225045202,166e9c50-8cd9-44af-815d-d1f0c0e90dde,Suspicious Svchost Process Access,high,test,rules,74,T1685.001
+SDWIN-191225045202,1f21ec3f-810d-4b0e-8045-322202e22b4b,Network Connection Initiated By PowerShell Process,low,test,rules-threat-hunting,23,T1059.001
+SDWIN-191225045202,250ae82f-736e-4844-a68b-0b5e8cc887da,Potential Shellcode Injection,medium,test,rules-threat-hunting,115,T1055
+SDWIN-191225045202,d3abac66-f11c-4ed0-8acb-50cc29c97eed,NetNTLM Downgrade Attack,high,test,rules,6,T1112;T1685
+SDWIN-191225045202,d67572a0-e2ec-45d6-b8db-c100d14b8ef2,NetNTLM Downgrade Attack - Registry - Generic,high,test,rules,3,T1112;T1685
+SDWIN-200609225055,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,7,T1531
+SDWIN-200609225055,12ba6a38-adb3-4d6b-91ba-a7fb248e3199,Password Policy Enumerated,medium,test,rules,11,T1201
+SDWIN-200609225055,178e615d-e666-498b-9630-9ed363038101,Elevated System Shell Spawned From Uncommon Parent Location - Generic,medium,test,rules,1,T1059
+SDWIN-200609225055,4a1b6da0-d94f-4fc3-98fc-2d9cb9e5ee76,Potentially Suspicious AccessMask Requested From LSASS,medium,test,rules,2,T1003.001
+SDWIN-200609225055,61065c72-5d7d-44ef-bf41-6a36684b545f,Elevated System Shell Spawned - Generic,medium,test,rules-threat-hunting,1,T1059
+SDWIN-200609225055,8cd538a4-62d5-4e83-810b-12d41e428d6e,Processes Accessing the Microphone and Webcam,medium,test,rules,6,T1123
+SDWIN-200609225055,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,19,T1053.005
+SDWIN-200721232741,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,2,T1531
+SDWIN-200721232741,1f21ec3f-810d-4b0e-8045-322202e22b4b,Network Connection Initiated By PowerShell Process,low,test,rules-threat-hunting,9,T1059.001
+SDWIN-200721232741,2dd2c217-bf68-437a-b57c-fe9fd01d5de8,Potentially Suspicious Regsvr32 HTTP IP Pattern - Generic,high,test,rules,2,T1218.010
+SDWIN-200721232741,3037d961-21e9-4732-b27a-637bcc7bf539,Suspicious High IntegrityLevel Conhost Legacy Option - Generic,informational,test,rules,1,T1202
+SDWIN-200721232741,6f0947a4-1c5e-4e0d-8ac7-53159b8f23ca,Potentially Suspicious Child Process Of Regsvr32 - Generic,high,test,rules,2,T1218.010
+SDWIN-200721232741,754ed792-634f-40ae-b3bc-e0448d33f695,Suspicious PowerShell Parent Process - Generic,high,test,rules,2,T1059.001
+SDWIN-200721232741,79f4ede3-402e-41c8-bc3e-ebbf5f162581,HackTool - Empire PowerShell Launch Parameters - Generic,high,test,rules,2,T1059.001
+SDWIN-200721232741,867356ee-9352-41c9-a8f2-1be690d78216,Potentially Suspicious Regsvr32 HTTP/FTP Pattern - Generic,medium,test,rules,2,T1218.010
+SDWIN-200721232741,ab37a6ec-6068-432b-a64e-2c7bf95b1d22,Scripting/CommandLine Process Spawned Regsvr32 - Generic,medium,test,rules,2,T1218.010
+SDWIN-200721232741,ac7102b4-9e1e-4802-9b4f-17c5524c015c,New PowerShell Instance Created,informational,test,rules,1,T1059.001
+SDWIN-200721232741,ae7fbf8e-f3cb-49fd-8db4-5f3bed522c71,Suspicious PowerShell Invocations - Specific,high,test,rules,1,T1059.001
+SDWIN-200721232741,c7e91a02-d771-4a6d-a700-42587e0b1095,Network Connection Initiated By Regsvr32.EXE,medium,test,rules,1,T1218.010;T1559.001
+SDWIN-200721232741,c86133ad-4725-4bd0-8170-210788e0a7ba,Net WebClient Casing Anomalies - Generic,high,test,rules,2,T1059.001
+SDWIN-200721232741,d0d28567-4b9a-45e2-8bbc-fb1b66a1f7f6,Unusually Long PowerShell CommandLine - Generic,low,test,rules-threat-hunting,2,T1059.001
+SDWIN-200721232741,e0d6c087-2d1c-47fd-8799-3904103c5a98,AMSI Bypass Pattern Assembly GetType,high,test,rules,1,T1685
+SDWIN-200721232741,e4b6d2a7-d8a4-4f19-acbd-943c16d90647,Potentially Suspicious PowerShell Child Processes - Generic,medium,test,rules-threat-hunting,2,T1059.001
+SDWIN-200721232741,f4bbd493-b796-416e-bbf2-121235348529,Non Interactive PowerShell Process Spawned - Generic,low,test,rules,2,T1059.001
+SDWIN-200721232741,fb843269-508c-4b76-8b8d-88679db22ce7,Suspicious Execution of Powershell with Base64 - Generic,medium,test,rules,2,T1059.001
+SDWIN-200722001847,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,5,T1531
+SDWIN-200722001847,1f21ec3f-810d-4b0e-8045-322202e22b4b,Network Connection Initiated By PowerShell Process,low,test,rules-threat-hunting,10,T1059.001
+SDWIN-200722001847,20f0ee37-5942-4e45-b7d5-c5b5db9df5cd,CurrentVersion Autorun Keys Modification - Generic,medium,test,rules,1,T1547.001
+SDWIN-200722001847,8d85cf08-bf97-4260-ba49-986a2a65129c,Suspicious PowerShell In Registry Run Keys - Generic,medium,test,rules,1,T1547.001
+SDWIN-200724174200,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,19,T1531
+SDWIN-200724174200,0f06a3a5-6a09-413f-8743-e6cf35561297,WMI Event Subscription,medium,test,rules,6,T1546.003
+SDWIN-200724174200,493fb4ab-cdcc-4c4f-818c-0e363bd1e4bb,WMI Event Consumer Created Named Pipe,medium,test,rules,1,T1047
+SDWIN-200724174200,671bb7e3-a020-4824-a00e-2ee5b55f385e,WMI Module Loaded By Uncommon Process,low,test,rules-threat-hunting,6,T1047
+SDWIN-200724174200,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,4,T1053.005
+SDWIN-200724174200,9599c180-e3a8-4743-8f92-7fb96d3be648,Potential Remote WMI ActiveScriptEventConsumers Activity,medium,test,rules-threat-hunting,1,T1546.003
+SDWIN-200724174200,b439f47d-ef52-4b29-9a2f-57d8a96cb6b8,WMI ActiveScriptEventConsumers Activity Via Scrcons.EXE DLL Load,medium,test,rules,4,T1546.003
+SDWIN-200724174200,ec1d5e28-8f3b-4188-a6f8-6e8df81dc28e,WMI Persistence - Script Event Consumer - Generic,medium,test,rules,2,T1546.003
+SDWIN-200724174200,facd1549-e416-48e0-b8c4-41d7215eedc8,Amsi.DLL Load By Uncommon Process,low,test,rules-threat-hunting,1,T1490
+SDWIN-200805020926,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,5,T1531
+SDWIN-200805020926,17d619c1-e020-4347-957e-1d1207455c93,Active Directory Replication from Non Machine Account - DcSync Indicator,medium,test,rules,3,T1003.006
+SDWIN-200805034820,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,3,T1531
+SDWIN-200805034820,57712d7a-679c-4a41-a913-87e7175ae429,SC.EXE Query Execution - Generic,low,test,rules-threat-hunting,1,T1007
+SDWIN-200806012009,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,5,T1531
+SDWIN-200806012009,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,4,T1053.005
+SDWIN-200806015757,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,2,T1531
+SDWIN-200806015757,b210394c-ba12-4f89-9117-44a2464b9511,SMB Create Remote File Admin Share,high,test,rules,1,T1021.002
+SDWIN-200806022635,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,16,T1531
+SDWIN-200806022635,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,10,T1053.005
+SDWIN-200806030120,092bc4b9-3d1d-43b4-a6b4-8c8acd83522f,PowerShell Core DLL Loaded By Non PowerShell Process,medium,test,rules,1,T1059.001
+SDWIN-200806030120,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,20,T1531
+SDWIN-200806030120,1027d292-dd87-4a1a-8701-2abe04d7783c,PSScriptPolicyTest Creation By Uncommon Process,medium,test,rules,2,
+SDWIN-200806030120,64e8e417-c19a-475a-8d19-98ea705394cc,Alternate PowerShell Hosts - PowerShell Module,medium,test,rules,169,T1059.001
+SDWIN-200806030120,ac7102b4-9e1e-4802-9b4f-17c5524c015c,New PowerShell Instance Created,informational,test,rules,1,T1059.001
+SDWIN-200806030120,ad1f4bb9-8dfb-4765-adb6-2a7cfb6c0f94,Suspicious WSMAN Provider Image Loads,medium,test,rules,1,T1021.003;T1059.001
+SDWIN-200806030120,b3ad3c0f-c949-47a1-a30e-b0491ccae876,Uncommon Connection to Active Directory Web Services,medium,test,rules,5,T1087
+SDWIN-200806031938,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,6,T1531
+SDWIN-200806031938,178e615d-e666-498b-9630-9ed363038101,Elevated System Shell Spawned From Uncommon Parent Location - Generic,medium,test,rules,1,T1059
+SDWIN-200806031938,4a1b6da0-d94f-4fc3-98fc-2d9cb9e5ee76,Potentially Suspicious AccessMask Requested From LSASS,medium,test,rules,2,T1003.001
+SDWIN-200806031938,61065c72-5d7d-44ef-bf41-6a36684b545f,Elevated System Shell Spawned - Generic,medium,test,rules-threat-hunting,1,T1059
+SDWIN-200806031938,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,21,T1053.005
+SDWIN-200806035621,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,15,T1531
+SDWIN-200806035621,3037d961-21e9-4732-b27a-637bcc7bf539,Suspicious High IntegrityLevel Conhost Legacy Option - Generic,informational,test,rules,1,T1202
+SDWIN-200806035621,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,4,T1053.005
+SDWIN-200806035621,c260b6db-48ba-4b4a-a76f-2f67644e99d2,HackTool - Covenant PowerShell Launcher - Generic,high,test,rules,2,T1059.001;T1564.003
+SDWIN-200806035621,d21374ff-f574-44a7-9998-4a8c8bf33d7d,WmiPrvSE Spawned A Process - Generic,medium,stable,rules,2,T1047
+SDWIN-200806115603,092bc4b9-3d1d-43b4-a6b4-8c8acd83522f,PowerShell Core DLL Loaded By Non PowerShell Process,medium,test,rules,1,T1059.001
+SDWIN-200806115603,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,14,T1531
+SDWIN-200806115603,1027d292-dd87-4a1a-8701-2abe04d7783c,PSScriptPolicyTest Creation By Uncommon Process,medium,test,rules,2,
+SDWIN-200806115603,13acf386-b8c6-4fe0-9a6e-c4756b974698,Remote PowerShell Sessions Network Connections (WinRM),high,test,rules,3,T1059.001
+SDWIN-200806115603,13addce7-47b2-4ca0-a98f-1de964d1d669,SCM Database Handle Failure,medium,test,rules,1,T1010
+SDWIN-200806115603,166e9c50-8cd9-44af-815d-d1f0c0e90dde,Suspicious Svchost Process Access,high,test,rules,79,T1685.001
+SDWIN-200806115603,250ae82f-736e-4844-a68b-0b5e8cc887da,Potential Shellcode Injection,medium,test,rules-threat-hunting,115,T1055
+SDWIN-200806115603,4a1b6da0-d94f-4fc3-98fc-2d9cb9e5ee76,Potentially Suspicious AccessMask Requested From LSASS,medium,test,rules,17,T1003.001
+SDWIN-200806115603,58cb02d5-78ce-4692-b3e1-dce850aae41a,Alternate PowerShell Hosts Pipe,medium,test,rules,1,T1059.001
+SDWIN-200806115603,734f8d9b-42b8-41b2-bcf5-abaf49d5a3c8,Remote PowerShell Session Host Process (WinRM) - Generic,medium,test,rules,2,T1021.006;T1059.001
+SDWIN-200806115603,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,6,T1053.005
+SDWIN-200806115603,962fe167-e48d-4fd6-9974-11e5b9a5d6d1,LSASS Access From Non System Account,medium,test,rules,9,T1003.001
+SDWIN-200806115603,aa35a627-33fb-4d04-a165-d33b4afca3e8,Remote LSASS Process Access Through Windows Remote Management,high,stable,rules,12,T1003.001;T1021.006;T1059.001
+SDWIN-200806115603,ac7102b4-9e1e-4802-9b4f-17c5524c015c,New PowerShell Instance Created,informational,test,rules,2,T1059.001
+SDWIN-200806115603,ad1f4bb9-8dfb-4765-adb6-2a7cfb6c0f94,Suspicious WSMAN Provider Image Loads,medium,test,rules,3,T1021.003;T1059.001
+SDWIN-200806115603,c539afac-c12a-46ed-b1bd-5a5567c9f045,Potential Remote PowerShell Session Initiated,high,test,rules,3,T1021.006;T1059.001
+SDWIN-200806130039,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,2,T1531
+SDWIN-200806130039,75bf09fa-1dd7-4d18-9af9-dd9e492562eb,ADSI-Cache File Creation By Uncommon Tool,medium,test,rules,1,T1001.003
+SDWIN-200807103913,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,10,T1531
+SDWIN-200807103913,0f920ebe-7aea-4c54-b202-9aa0c609cfe5,Potential Credential Dumping Attempt Via PowerShell,medium,test,rules-threat-hunting,1,T1003.001
+SDWIN-200807103913,1f21ec3f-810d-4b0e-8045-322202e22b4b,Network Connection Initiated By PowerShell Process,low,test,rules-threat-hunting,34,T1059.001
+SDWIN-200807103913,4a1b6da0-d94f-4fc3-98fc-2d9cb9e5ee76,Potentially Suspicious AccessMask Requested From LSASS,medium,test,rules,2,T1003.001
+SDWIN-200807103913,502b42de-4306-40b4-9596-6f590c81f073,Local Accounts Discovery - Generic,low,test,rules,2,T1033;T1087.001
+SDWIN-200807103913,5ef9853e-4d0e-4a70-846f-a9ca37d876da,Potential Credential Dumping Activity Via LSASS,medium,test,rules,1,T1003.001
+SDWIN-200807103913,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,15,T1053.005
+SDWIN-200807103913,962fe167-e48d-4fd6-9974-11e5b9a5d6d1,LSASS Access From Non System Account,medium,test,rules,1,T1003.001
+SDWIN-200807103913,aa1697b7-d611-4f9a-9cb2-5125b4ccfd5c,Password Dumper Activity on LSASS,high,test,rules,1,T1003.001
+SDWIN-200904032946,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,3,T1531
+SDWIN-200904032946,152f3630-77c1-4284-bcc0-4cc68ab2f6e7,Shell Open Registry Keys Manipulation - Generic,high,test,rules,1,T1546.001;T1548.002
+SDWIN-200904032946,1f21ec3f-810d-4b0e-8045-322202e22b4b,Network Connection Initiated By PowerShell Process,low,test,rules-threat-hunting,1,T1059.001
+SDWIN-200904032946,3037d961-21e9-4732-b27a-637bcc7bf539,Suspicious High IntegrityLevel Conhost Legacy Option - Generic,informational,test,rules,1,T1202
+SDWIN-200904032946,3268b746-88d8-4cd3-bffc-30077d02c787,HackTool - Empire PowerShell UAC Bypass - Generic,critical,stable,rules,2,T1548.002
+SDWIN-200904032946,411742ad-89b0-49cb-a7b0-3971b5c1e0a4,Locked Workstation,informational,stable,rules,1,
+SDWIN-200904032946,46dd5308-4572-4d12-aa43-8938f0184d4f,Bypass UAC Using DelegateExecute - Generic,high,test,rules,1,T1548.002
+SDWIN-200904032946,502b42de-4306-40b4-9596-6f590c81f073,Local Accounts Discovery - Generic,low,test,rules,6,T1033;T1087.001
+SDWIN-200904032946,79f4ede3-402e-41c8-bc3e-ebbf5f162581,HackTool - Empire PowerShell Launch Parameters - Generic,high,test,rules,4,T1059.001
+SDWIN-200904032946,7f741dcf-fc22-4759-87b4-9ae8376676a2,Bypass UAC via Fodhelper.exe - Generic,high,test,rules,2,T1548.002
+SDWIN-200904032946,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,18,T1053.005
+SDWIN-200904032946,96f697b0-b499-4e5d-9908-a67bec11cdb6,Removal of Potential COM Hijacking Registry Keys,medium,test,rules,2,T1112
+SDWIN-200904032946,ac7102b4-9e1e-4802-9b4f-17c5524c015c,New PowerShell Instance Created,informational,test,rules,2,T1059.001
+SDWIN-200904032946,ae7fbf8e-f3cb-49fd-8db4-5f3bed522c71,Suspicious PowerShell Invocations - Specific,high,test,rules,1,T1059.001
+SDWIN-200904032946,bafd07c6-3ea5-454a-b4be-058fbb073de7,Potential Executable Run Itself As Sacrificial Process - Generic,low,experimental,rules-threat-hunting,1,T1055
+SDWIN-200904032946,bbb80e91-5746-4fbe-8898-122e2cafdbf4,Suspicious PowerShell Invocations - Generic - PowerShell Module,high,test,rules,96,T1059.001
+SDWIN-200904032946,bd8b828d-0dca-48e1-8a63-8a58ecf2644f,Group Membership Reconnaissance Via Whoami.EXE - Generic,medium,test,rules,4,T1033
+SDWIN-200904032946,c86133ad-4725-4bd0-8170-210788e0a7ba,Net WebClient Casing Anomalies - Generic,high,test,rules,2,T1059.001
+SDWIN-200904032946,d0d28567-4b9a-45e2-8bbc-fb1b66a1f7f6,Unusually Long PowerShell CommandLine - Generic,low,test,rules-threat-hunting,2,T1059.001
+SDWIN-200904032946,e0d6c087-2d1c-47fd-8799-3904103c5a98,AMSI Bypass Pattern Assembly GetType,high,test,rules,1,T1685
+SDWIN-200904032946,ed965133-513f-41d9-a441-e38076a0798f,Suspicious PowerShell Invocations - Generic,high,test,rules,1,T1059.001
+SDWIN-200904032946,f4bbd493-b796-416e-bbf2-121235348529,Non Interactive PowerShell Process Spawned - Generic,low,test,rules,4,T1059.001
+SDWIN-200904032946,fb843269-508c-4b76-8b8d-88679db22ce7,Suspicious Execution of Powershell with Base64 - Generic,medium,test,rules,4,T1059.001
+SDWIN-200914080546,00bb5bd5-1379-4fcf-a965-a5b6f7478064,Windows Firewall Settings Have Been Changed,low,test,rules,1,T1686.003
+SDWIN-200914080546,02c39d30-02b5-45d2-b435-8aebfe5a8629,A Member Was Removed From a Security-Enabled Global Group,low,stable,rules,1,T1098
+SDWIN-200914080546,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,18,T1531
+SDWIN-200914080546,183e7ea8-ac4b-4c23-9aec-b3dac4e401ac,Net.EXE Execution - Generic,low,test,rules-threat-hunting,4,T1007;T1018;T1021.002;T1049;T1069.001;T1069.002;T1087.001;T1087.002;T1135;T1201
+SDWIN-200914080546,3037d961-21e9-4732-b27a-637bcc7bf539,Suspicious High IntegrityLevel Conhost Legacy Option - Generic,informational,test,rules,1,T1202
+SDWIN-200914080546,526be59f-a573-4eea-b5f7-f0973207634d,Process Creation Attempt via Wmic.EXE - Generic,medium,test,rules,2,T1047
+SDWIN-200914080546,66b6be3d-55d0-4f47-9855-d69df21740ea,Local User Creation,low,test,rules,1,T1136.001
+SDWIN-200914080546,7773b877-5abb-4a3e-b9c9-fd0369b59b00,WMIC Remote Command Execution - Generic,medium,test,rules,2,T1047
+SDWIN-200914080546,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,65,T1053.005
+SDWIN-200914080546,c43c26be-2e87-46c7-8661-284588c5a53e,A Member Was Added to a Security-Enabled Global Group,low,stable,rules,1,T1098
+SDWIN-200914080546,cd219ff3-fa99-45d4-8380-a7d15116c6dc,New User Created Via Net.EXE - Generic,medium,test,rules,4,T1136.001
+SDWIN-200914080546,d21374ff-f574-44a7-9998-4a8c8bf33d7d,WmiPrvSE Spawned A Process - Generic,medium,stable,rules,2,T1047
+SDWIN-200916232559,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,4,T1531
+SDWIN-200916232559,4f154fb6-27d1-4813-a759-78b93e0b9c48,Operator Bloopers Cobalt Strike Modules - Generic,high,test,rules,2,T1059.003
+SDWIN-200916232559,a642964e-bead-4bed-8910-1bb4d63e3b4d,HackTool - Mimikatz Execution - Generic,high,test,rules,4,T1003.001;T1003.002;T1003.004;T1003.005;T1003.006
+SDWIN-200917174542,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,8,T1531
+SDWIN-200917174542,60936b49-fca0-4f32-993d-7415edcf9a5d,New Application in AppCompat - Generic,informational,test,rules,1,T1204.002
+SDWIN-200917174542,75e33ce3-ae32-4dcc-9aa8-a2a3029d6f84,Office Application Initiated Network Connection To Non-Local IP,medium,test,rules,4,T1203
+SDWIN-200917174542,868df2d1-0939-4562-83a7-27408c4a1ada,Shell Context Menu Command Tampering - Generic,low,test,rules-threat-hunting,2,
+SDWIN-200917174542,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,25,T1053.005
+SDWIN-200917174542,9bdaf1e9-fdef-443b-8081-4341b74a7e28,Suspicious New Instance Of An Office COM Object - Generic,medium,test,rules-threat-hunting,2,
+SDWIN-200917174542,a762e74f-4dce-477c-b023-4ed81df600f9,Scheduled Task Created - FileCreation,low,test,rules-threat-hunting,1,T1053.005
+SDWIN-200917174542,baecf8fb-edbf-429f-9ade-31fc3f22b970,Office Autorun Keys Modification - Generic,medium,test,rules,7,T1547.001
+SDWIN-200917174542,e700ff14-1bff-4d1d-9438-738dff5f0466,BITS Client BitsProxy DLL Loaded By Uncommon Process,low,experimental,rules-threat-hunting,1,T1197
+SDWIN-200918145959,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,29,T1531
+SDWIN-200918145959,64e8e417-c19a-475a-8d19-98ea705394cc,Alternate PowerShell Hosts - PowerShell Module,medium,test,rules,169,T1059.001
+SDWIN-200918145959,75e33ce3-ae32-4dcc-9aa8-a2a3029d6f84,Office Application Initiated Network Connection To Non-Local IP,medium,test,rules,1,T1203
+SDWIN-200918145959,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,11,T1053.005
+SDWIN-200918145959,9bdaf1e9-fdef-443b-8081-4341b74a7e28,Suspicious New Instance Of An Office COM Object - Generic,medium,test,rules-threat-hunting,2,
+SDWIN-200918145959,bbb9495b-58fc-4016-b9df-9a3a1b67ca82,Password Policy Discovery With Get-AdDefaultDomainPasswordPolicy,low,test,rules,1,T1201
+SDWIN-200918145959,c5f4b5cb-4c25-4249-ba91-aa03626e3185,Microsoft Excel Add-In Loaded,low,test,rules-threat-hunting,1,T1204.002
+SDWIN-200921001437,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,29,T1531
+SDWIN-200921001437,1f21ec3f-810d-4b0e-8045-322202e22b4b,Network Connection Initiated By PowerShell Process,low,test,rules-threat-hunting,2,T1059.001
+SDWIN-200921001437,3037d961-21e9-4732-b27a-637bcc7bf539,Suspicious High IntegrityLevel Conhost Legacy Option - Generic,informational,test,rules,1,T1202
+SDWIN-200921001437,502b42de-4306-40b4-9596-6f590c81f073,Local Accounts Discovery - Generic,low,test,rules,2,T1033;T1087.001
+SDWIN-200921001437,64e8e417-c19a-475a-8d19-98ea705394cc,Alternate PowerShell Hosts - PowerShell Module,medium,test,rules,273,T1059.001
+SDWIN-200921001437,692f0bec-83ba-4d04-af7e-e884a96059b6,Potential WMI Lateral Movement WmiPrvSE Spawned PowerShell - Generic,medium,stable,rules,2,T1047;T1059.001
+SDWIN-200921001437,79f4ede3-402e-41c8-bc3e-ebbf5f162581,HackTool - Empire PowerShell Launch Parameters - Generic,high,test,rules,2,T1059.001
+SDWIN-200921001437,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,13,T1053.005
+SDWIN-200921001437,ac7102b4-9e1e-4802-9b4f-17c5524c015c,New PowerShell Instance Created,informational,test,rules,1,T1059.001
+SDWIN-200921001437,ae7fbf8e-f3cb-49fd-8db4-5f3bed522c71,Suspicious PowerShell Invocations - Specific,high,test,rules,1,T1059.001
+SDWIN-200921001437,bbb9495b-58fc-4016-b9df-9a3a1b67ca82,Password Policy Discovery With Get-AdDefaultDomainPasswordPolicy,low,test,rules,1,T1201
+SDWIN-200921001437,c86133ad-4725-4bd0-8170-210788e0a7ba,Net WebClient Casing Anomalies - Generic,high,test,rules,2,T1059.001
+SDWIN-200921001437,d0d28567-4b9a-45e2-8bbc-fb1b66a1f7f6,Unusually Long PowerShell CommandLine - Generic,low,test,rules-threat-hunting,2,T1059.001
+SDWIN-200921001437,d21374ff-f574-44a7-9998-4a8c8bf33d7d,WmiPrvSE Spawned A Process - Generic,medium,stable,rules,2,T1047
+SDWIN-200921001437,e0d6c087-2d1c-47fd-8799-3904103c5a98,AMSI Bypass Pattern Assembly GetType,high,test,rules,1,T1685
+SDWIN-200921001437,f4bbd493-b796-416e-bbf2-121235348529,Non Interactive PowerShell Process Spawned - Generic,low,test,rules,2,T1059.001
+SDWIN-200921001437,fb843269-508c-4b76-8b8d-88679db22ce7,Suspicious Execution of Powershell with Base64 - Generic,medium,test,rules,2,T1059.001
+SDWIN-200921175806,00bb5bd5-1379-4fcf-a965-a5b6f7478064,Windows Firewall Settings Have Been Changed,low,test,rules,1,T1686.003
+SDWIN-200921175806,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,78,T1531
+SDWIN-200921175806,1027d292-dd87-4a1a-8701-2abe04d7783c,PSScriptPolicyTest Creation By Uncommon Process,medium,test,rules,1,
+SDWIN-200921175806,12ba6a38-adb3-4d6b-91ba-a7fb248e3199,Password Policy Enumerated,medium,test,rules,4,T1201
+SDWIN-200921175806,20f0ee37-5942-4e45-b7d5-c5b5db9df5cd,CurrentVersion Autorun Keys Modification - Generic,medium,test,rules,1,T1547.001
+SDWIN-200921175806,259a9cdf-c4dd-4fa2-b243-2269e5ab18a2,External Remote RDP Logon from Public IP,medium,test,rules,2,T1078;T1110;T1133
+SDWIN-200921175806,3a6586ad-127a-4d3b-a677-1e6eacdf8fde,Windows Shell/Scripting Processes Spawning Suspicious Programs - Generic,high,test,rules,2,T1059.001;T1059.005;T1218
+SDWIN-200921175806,4a1b6da0-d94f-4fc3-98fc-2d9cb9e5ee76,Potentially Suspicious AccessMask Requested From LSASS,medium,test,rules,2,T1003.001
+SDWIN-200921175806,4f86b304-3e02-40e3-aa5d-e88a167c9617,Scheduled Task Deletion,low,test,rules-threat-hunting,2,T1053.005
+SDWIN-200921175806,5ef9853e-4d0e-4a70-846f-a9ca37d876da,Potential Credential Dumping Activity Via LSASS,medium,test,rules,2,T1003.001
+SDWIN-200921175806,61065c72-5d7d-44ef-bf41-6a36684b545f,Elevated System Shell Spawned - Generic,medium,test,rules-threat-hunting,1,T1059
+SDWIN-200921175806,64e8e417-c19a-475a-8d19-98ea705394cc,Alternate PowerShell Hosts - PowerShell Module,medium,test,rules,170,T1059.001
+SDWIN-200921175806,78d5cab4-557e-454f-9fb9-a222bd0d5edc,External Remote SMB Logon from Public IP,high,test,rules,1,T1078;T1110;T1133
+SDWIN-200921175806,7a02e22e-b885-4404-b38b-1ddc7e65258a,Suspicious Schtasks Schedule Type With High Privileges - Generic,medium,test,rules,2,T1053.005
+SDWIN-200921175806,89ca78fd-b37c-4310-b3d3-81a023f83936,Schtasks Creation Or Modification With SYSTEM Privileges - Generic,high,test,rules,2,T1053.005
+SDWIN-200921175806,92626ddd-662c-49e3-ac59-f6535f12d189,Scheduled Task Creation Via Schtasks.EXE - Generic,low,test,rules,2,T1053.005
+SDWIN-200921175806,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,211,T1053.005
+SDWIN-200921175806,9f22ccd5-a435-453b-af96-bf99cbb594d4,WinAPI Function Calls Via PowerShell Scripts,medium,test,rules-threat-hunting,2,T1059.001;T1106
+SDWIN-200921175806,a762e74f-4dce-477c-b023-4ed81df600f9,Scheduled Task Created - FileCreation,low,test,rules-threat-hunting,4,T1053.005
+SDWIN-200921175806,acf2807c-805b-4042-aab9-f86b6ba9cb2b,Dynamic .NET Compilation Via Csc.EXE - Hunting - Generic,medium,test,rules-threat-hunting,2,T1027.004
+SDWIN-200921175806,ae7fbf8e-f3cb-49fd-8db4-5f3bed522c71,Suspicious PowerShell Invocations - Specific,high,test,rules,2,T1059.001
+SDWIN-200921175806,bafd07c6-3ea5-454a-b4be-058fbb073de7,Potential Executable Run Itself As Sacrificial Process - Generic,low,experimental,rules-threat-hunting,14,T1055
+SDWIN-200921175806,bbb9495b-58fc-4016-b9df-9a3a1b67ca82,Password Policy Discovery With Get-AdDefaultDomainPasswordPolicy,low,test,rules,1,T1201
+SDWIN-200921175806,d3c3861d-c504-4c77-ba55-224ba82d0118,New Network Trace Capture Started Via Netsh.EXE - Generic,medium,test,rules,2,T1040
+SDWIN-200921175806,db809f10-56ce-4420-8c86-d6a7d793c79c,Potential Defense Evasion Via Raw Disk Access By Uncommon Tools,low,test,rules,3,T1006
+SDWIN-200921175806,dcaa3f04-70c3-427a-80b4-b870d73c94c4,Dynamic .NET Compilation Via Csc.EXE - Generic,medium,test,rules,2,T1027.004
+SDWIN-200921175806,e0d6c087-2d1c-47fd-8799-3904103c5a98,AMSI Bypass Pattern Assembly GetType,high,test,rules,2,T1685
+SDWIN-200921175806,e32d4572-9826-4738-b651-95fa63747e8a,Base64 Encoded PowerShell Command Detected - Generic,high,test,rules,4,T1027;T1059.001;T1140
+SDWIN-200921175806,e4b6d2a7-d8a4-4f19-acbd-943c16d90647,Potentially Suspicious PowerShell Child Processes - Generic,medium,test,rules-threat-hunting,2,T1059.001
+SDWIN-200921175806,f2c64357-b1d2-41b7-849f-34d2682c0fad,Suspicious Command Patterns In Scheduled Task Creation - Generic,high,test,rules,2,T1053.005
+SDWIN-200921175806,f4bbd493-b796-416e-bbf2-121235348529,Non Interactive PowerShell Process Spawned - Generic,low,test,rules,2,T1059.001
+SDWIN-200921230246,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,7,T1531
+SDWIN-200921230246,12e6d621-194f-4f59-90cc-1959e21e69f7,Register new Logon Process by Rubeus,high,test,rules,1,T1558.003
+SDWIN-200921230246,192a0330-c20b-4356-90b6-7b7049ae0b87,Successful Overpass the Hash Attempt,high,test,rules,1,T1550.002
+SDWIN-200921230246,250ae82f-736e-4844-a68b-0b5e8cc887da,Potential Shellcode Injection,medium,test,rules-threat-hunting,1,T1055
+SDWIN-200921230246,3037d961-21e9-4732-b27a-637bcc7bf539,Suspicious High IntegrityLevel Conhost Legacy Option - Generic,informational,test,rules,1,T1202
+SDWIN-200921230246,4f86b304-3e02-40e3-aa5d-e88a167c9617,Scheduled Task Deletion,low,test,rules-threat-hunting,2,T1053.005
+SDWIN-200921230246,7ec2c172-dceb-4c10-92c9-87c1881b7e18,HackTool - Rubeus Execution - Generic,critical,stable,rules,2,T1003;T1550.003;T1558.003
+SDWIN-200921230246,8eef149c-bd26-49f2-9e5a-9b00e3af499b,Pass the Hash Activity 2,medium,stable,rules,1,T1550.002
+SDWIN-200921230246,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,74,T1053.005
+SDWIN-200921230246,a762e74f-4dce-477c-b023-4ed81df600f9,Scheduled Task Created - FileCreation,low,test,rules-threat-hunting,2,T1053.005
+SDWIN-200921230246,d0d2f720-d14f-448d-8242-51ff396a334e,HackTool - Generic Process Access,high,test,rules,1,T1003.001
+SDWIN-200921230246,def8b624-e08f-4ae1-8612-1ba21190da6b,Outgoing Logon with New Credentials,low,test,rules,1,T1550
+SDWIN-200921230246,e54979bd-c5f9-4d6c-967b-a04b19ac4c74,Uncommon Outbound Kerberos Connection,medium,test,rules,1,T1550.003;T1558
+SDWIN-200921230246,eca91c7c-9214-47b9-b4c5-cb1d7e4f2350,Uncommon Outbound Kerberos Connection - Security,medium,test,rules,1,T1558.003
+SDWIN-200922042230,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,1,T1531
+SDWIN-200922042230,0f920ebe-7aea-4c54-b202-9aa0c609cfe5,Potential Credential Dumping Attempt Via PowerShell,medium,test,rules-threat-hunting,1,T1003.001
+SDWIN-200922042230,250ae82f-736e-4844-a68b-0b5e8cc887da,Potential Shellcode Injection,medium,test,rules-threat-hunting,1,T1055
+SDWIN-200922042230,4a1b6da0-d94f-4fc3-98fc-2d9cb9e5ee76,Potentially Suspicious AccessMask Requested From LSASS,medium,test,rules,1,T1003.001
+SDWIN-200922042230,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,11,T1053.005
+SDWIN-200922042230,962fe167-e48d-4fd6-9974-11e5b9a5d6d1,LSASS Access From Non System Account,medium,test,rules,1,T1003.001
+SDWIN-200922042230,9a4ff3b8-6187-4fd2-8e8b-e0eae1129495,SysKey Registry Keys Access,high,test,rules,8,T1012
+SDWIN-200922042230,acf2807c-805b-4042-aab9-f86b6ba9cb2b,Dynamic .NET Compilation Via Csc.EXE - Hunting - Generic,medium,test,rules-threat-hunting,6,T1027.004
+SDWIN-200922042230,dcaa3f04-70c3-427a-80b4-b870d73c94c4,Dynamic .NET Compilation Via Csc.EXE - Generic,medium,test,rules,6,T1027.004
+SDWIN-200922042230,e4a74e34-ecde-4aab-b2fb-9112dd01aed0,Dynamic CSharp Compile Artefact,low,test,rules,3,T1027.004
+SDWIN-201009173318,06ce37c2-61ab-4f05-9ff5-b1a96d18ae32,WMIC Loading Scripting Libraries,medium,test,rules,1,T1220
+SDWIN-201009173318,092bc4b9-3d1d-43b4-a6b4-8c8acd83522f,PowerShell Core DLL Loaded By Non PowerShell Process,medium,test,rules,1,T1059.001
+SDWIN-201009173318,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,19,T1531
+SDWIN-201009173318,1027d292-dd87-4a1a-8701-2abe04d7783c,PSScriptPolicyTest Creation By Uncommon Process,medium,test,rules,2,
+SDWIN-201009173318,178e615d-e666-498b-9630-9ed363038101,Elevated System Shell Spawned From Uncommon Parent Location - Generic,medium,test,rules,1,T1059
+SDWIN-201009173318,4a1b6da0-d94f-4fc3-98fc-2d9cb9e5ee76,Potentially Suspicious AccessMask Requested From LSASS,medium,test,rules,2,T1003.001
+SDWIN-201009173318,61065c72-5d7d-44ef-bf41-6a36684b545f,Elevated System Shell Spawned - Generic,medium,test,rules-threat-hunting,1,T1059
+SDWIN-201009173318,614a7e17-5643-4d89-b6fe-f9df1a79641c,Wmiprvse Wbemcomn DLL Hijack - File,critical,test,rules,1,T1021.002;T1047
+SDWIN-201009173318,64e8e417-c19a-475a-8d19-98ea705394cc,Alternate PowerShell Hosts - PowerShell Module,medium,test,rules,169,T1059.001
+SDWIN-201009173318,678dfc63-fefb-47a5-a04c-26bcf8cc9f65,Uncommon GrantedAccess Flags On LSASS,medium,test,rules-threat-hunting,1,T1003.001
+SDWIN-201009173318,6b98b92b-4f00-4f62-b4fe-4d1920215771,Potential DLL Sideloading Of Non-Existent DLLs From System Folders,high,test,rules,1,T1574.001
+SDWIN-201009173318,7707a579-e0d8-4886-a853-ce47e4575aaa,Wmiprvse Wbemcomn DLL Hijack,high,test,rules,1,T1021.002;T1047
+SDWIN-201009173318,7773b877-5abb-4a3e-b9c9-fd0369b59b00,WMIC Remote Command Execution - Generic,medium,test,rules,2,T1047
+SDWIN-201009173318,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,14,T1053.005
+SDWIN-201009173318,a1a144b7-5c9b-4853-a559-2172be8d4a03,Remote Thread Creation In Uncommon Target Image,medium,test,rules,1,T1055.003
+SDWIN-201009173318,a24e5861-c6ca-4fde-a93c-ba9256feddf0,Uncommon Process Access Rights For Target Image,low,test,rules,2,T1055.011
+SDWIN-201009173318,ac7102b4-9e1e-4802-9b4f-17c5524c015c,New PowerShell Instance Created,informational,test,rules,1,T1059.001
+SDWIN-201009173318,ad1f4bb9-8dfb-4765-adb6-2a7cfb6c0f94,Suspicious WSMAN Provider Image Loads,medium,test,rules,1,T1021.003;T1059.001
+SDWIN-201009173318,b210394c-ba12-4f89-9117-44a2464b9511,SMB Create Remote File Admin Share,high,test,rules,1,T1021.002
+SDWIN-201009173318,b3ad3c0f-c949-47a1-a30e-b0491ccae876,Uncommon Connection to Active Directory Web Services,medium,test,rules,5,T1087
+SDWIN-201009173318,bbb9495b-58fc-4016-b9df-9a3a1b67ca82,Password Policy Discovery With Get-AdDefaultDomainPasswordPolicy,low,test,rules,1,T1201
+SDWIN-201009173318,d21374ff-f574-44a7-9998-4a8c8bf33d7d,WmiPrvSE Spawned A Process - Generic,medium,stable,rules,1,T1047
+SDWIN-201009173318,df6ecb8b-7822-4f4b-b412-08f524b4576c,Creation Of Non-Existent System DLL,medium,test,rules,1,T1574.001
+SDWIN-201009173318,e81528db-fc02-45e8-8e98-4e84aba1f10b,Network Connection Initiated Via Notepad.EXE,high,test,rules,1,T1055
+SDWIN-201009173318,f6c68d5f-e101-4b86-8c84-7d96851fd65c,T1047 Wmiprvse Wbemcomn DLL Hijack,high,test,rules,2,T1021.002;T1047
+SDWIN-201009183000,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,16,T1531
+SDWIN-201009183000,12ba6a38-adb3-4d6b-91ba-a7fb248e3199,Password Policy Enumerated,medium,test,rules,11,T1201
+SDWIN-201009183000,2f7979ae-f82b-45af-ac1d-2b10e93b0baa,Potential DCOM InternetExplorer.Application DLL Hijack,critical,test,rules,1,T1021.002;T1021.003
+SDWIN-201009183000,3a9b8c1e-5b2e-4f7a-9d1c-2a7f3b6e1c55,RunMRU Registry Key Deletion - Registry,high,experimental,rules,2,T1070.003
+SDWIN-201009183000,4fc0deee-0057-4998-ab31-d24e46e0aba4,Potential System DLL Sideloading From Non System Locations,high,test,rules,1,T1574.001
+SDWIN-201009183000,50f852e6-af22-4c78-9ede-42ef36aa3453,Potential Azure Browser SSO Abuse,low,test,rules,1,T1574.001
+SDWIN-201009183000,558eebe5-f2ba-4104-b339-36f7902bcc1a,File Creation Date Changed to Another Year,low,test,rules-threat-hunting,10,T1070.006
+SDWIN-201009183000,60936b49-fca0-4f32-993d-7415edcf9a5d,New Application in AppCompat - Generic,informational,test,rules,1,T1204.002
+SDWIN-201009183000,66d31e5f-52d6-40a4-9615-002d3789a119,Remote Thread Creation By Uncommon Source Image,medium,test,rules,1,T1055
+SDWIN-201009183000,671bb7e3-a020-4824-a00e-2ee5b55f385e,WMI Module Loaded By Uncommon Process,low,test,rules-threat-hunting,4,T1047
+SDWIN-201009183000,85b88e05-dadc-430b-8a9e-53ff1cd30aae,Potentially Suspicious Desktop Background Change Via Registry - Generic,medium,test,rules,1,T1112;T1491.001
+SDWIN-201009183000,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,72,T1053.005
+SDWIN-201009183000,96f697b0-b499-4e5d-9908-a67bec11cdb6,Removal of Potential COM Hijacking Registry Keys,medium,test,rules,1,T1112
+SDWIN-201009183000,a24e5861-c6ca-4fde-a93c-ba9256feddf0,Uncommon Process Access Rights For Target Image,low,test,rules,2,T1055.011
+SDWIN-201009183000,a762e74f-4dce-477c-b023-4ed81df600f9,Scheduled Task Created - FileCreation,low,test,rules-threat-hunting,1,T1053.005
+SDWIN-201009183000,b210394c-ba12-4f89-9117-44a2464b9511,SMB Create Remote File Admin Share,high,test,rules,1,T1021.002
+SDWIN-201009183000,b8fd0e93-ff58-4cbd-8f48-1c114e342e62,Windows Binaries Write Suspicious Extensions,high,test,rules,1,T1036
+SDWIN-201009183000,c39f0c81-7348-4965-ab27-2fde35a1b641,DCOM InternetExplorer.Application Iertutil DLL Hijack - Security,high,test,rules,2,T1021.002;T1021.003
+SDWIN-201009183000,d223b46b-5621-4037-88fe-fda32eead684,New Root or CA or AuthRoot Certificate to Store - Generic,medium,test,rules,1,T1490
+SDWIN-201009183000,e700ff14-1bff-4d1d-9438-738dff5f0466,BITS Client BitsProxy DLL Loaded By Uncommon Process,low,experimental,rules-threat-hunting,1,T1197
+SDWIN-201009183000,e81528db-fc02-45e8-8e98-4e84aba1f10b,Network Connection Initiated Via Notepad.EXE,high,test,rules,1,T1055
+SDWIN-201009183000,f354eba5-623b-450f-b073-0b5b2773b6aa,Potential DCOM InternetExplorer.Application DLL Hijack - Image Load,critical,test,rules,1,T1021.002;T1021.003
+SDWIN-201009183000,facd1549-e416-48e0-b8c4-41d7215eedc8,Amsi.DLL Load By Uncommon Process,low,test,rules-threat-hunting,1,T1490
+SDWIN-201012183248,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,9,T1531
+SDWIN-201012183248,3037d961-21e9-4732-b27a-637bcc7bf539,Suspicious High IntegrityLevel Conhost Legacy Option - Generic,informational,test,rules,1,T1202
+SDWIN-201012183248,a24e5861-c6ca-4fde-a93c-ba9256feddf0,Uncommon Process Access Rights For Target Image,low,test,rules,3,T1055.011
+SDWIN-201012183248,af77cf95-c469-471c-b6a0-946c685c4798,Proxy Execution Via Wuauclt.EXE - Generic,high,test,rules,2,T1218
+SDWIN-201012183248,e81528db-fc02-45e8-8e98-4e84aba1f10b,Network Connection Initiated Via Notepad.EXE,high,test,rules,1,T1055
+SDWIN-201017061100,06ce37c2-61ab-4f05-9ff5-b1a96d18ae32,WMIC Loading Scripting Libraries,medium,test,rules,1,T1220
+SDWIN-201017061100,221b251a-357a-49a9-920a-271802777cc0,Potential Process Reconnaissance via Wmic.EXE - Generic,medium,test,rules,2,T1047;T1057
+SDWIN-201017061100,8d63dadf-b91b-4187-87b6-34a1114577ea,Potential Remote SquiblyTwo Technique Execution - Generic,high,test,rules,2,T1047;T1059.005;T1059.007;T1220
+SDWIN-201017061100,a24e5861-c6ca-4fde-a93c-ba9256feddf0,Uncommon Process Access Rights For Target Image,low,test,rules,2,T1055.011
+SDWIN-201018195009,0e277796-5f23-4e49-a490-483131d4f6e1,Dbghelp/Dbgcore DLL Loaded By Uncommon/Suspicious Process,medium,test,rules-threat-hunting,2,T1003.001
+SDWIN-201018195009,3a525307-d100-48ae-b3b9-0964699d7f97,DMP/HDMP File Creation,low,test,rules-threat-hunting,1,
+SDWIN-201018195009,4a1b6da0-d94f-4fc3-98fc-2d9cb9e5ee76,Potentially Suspicious AccessMask Requested From LSASS,medium,test,rules,3,T1003.001
+SDWIN-201018195009,5ef9853e-4d0e-4a70-846f-a9ca37d876da,Potential Credential Dumping Activity Via LSASS,medium,test,rules,1,T1003.001
+SDWIN-201018195009,646ea171-dded-4578-8a4d-65e9822892e3,Process Memory Dump Via Comsvcs.DLL - Generic,high,test,rules,2,T1003.001;T1036
+SDWIN-201018195009,962fe167-e48d-4fd6-9974-11e5b9a5d6d1,LSASS Access From Non System Account,medium,test,rules,1,T1003.001
+SDWIN-201018195009,a49fa4d5-11db-418c-8473-1e014a8dd462,Lsass Memory Dump via Comsvcs DLL,high,test,rules,2,T1003.001
+SDWIN-201018195009,a5a2d357-1ab8-4675-a967-ef9990a59391,LSASS Process Memory Dump Files,high,test,rules,1,T1003.001
+SDWIN-201018195009,cf879ffb-793a-4753-9a14-bc8f37cc90df,Potential Qakbot Rundll32 Execution - Generic,high,test,rules-emerging-threats,2,
+SDWIN-201018195009,e4b6d2a7-d8a4-4f19-acbd-943c16d90647,Potentially Suspicious PowerShell Child Processes - Generic,medium,test,rules-threat-hunting,2,T1059.001
+SDWIN-201018195009,e593cf51-88db-4ee1-b920-37e89012a3c9,Potentially Suspicious Rundll32 Activity - Generic,medium,test,rules,2,T1218.011
+SDWIN-201018195009,ffa6861c-4461-4f59-8a41-578c39f3f23e,LSASS Dump Keyword In CommandLine - Generic,high,test,rules,2,T1003.001
+SDWIN-201018225619,24e3e58a-646b-4b50-adef-02ef935b9fc8,Hacktool Execution - Imphash - Generic,critical,test,rules,1,T1003;T1588.002
+SDWIN-201018225619,2704ab9e-afe2-4854-a3b1-0c0706d03578,HackTool - Dumpert Process Dumper Execution - Generic,critical,test,rules,2,T1003.001
+SDWIN-201018225619,3a525307-d100-48ae-b3b9-0964699d7f97,DMP/HDMP File Creation,low,test,rules-threat-hunting,1,
+SDWIN-201018225619,4a1b6da0-d94f-4fc3-98fc-2d9cb9e5ee76,Potentially Suspicious AccessMask Requested From LSASS,medium,test,rules,2,T1003.001
+SDWIN-201018225619,5ef9853e-4d0e-4a70-846f-a9ca37d876da,Potential Credential Dumping Activity Via LSASS,medium,test,rules,2,T1003.001
+SDWIN-201018225619,93d94efc-d7ad-4161-ad7d-1638c4f908d8,HackTool - Dumpert Process Dumper Default File,critical,test,rules,1,T1003.001
+SDWIN-201018225619,9bd012ee-0dff-44d7-84a0-aa698cfd87a3,LSASS Memory Access by Tool With Dump Keyword In Name,high,test,rules,2,T1003.001
+SDWIN-201018225619,9f5c1d59-33be-4e60-bcab-85d2f566effd,Suspicious Process Access to LSASS with Dbgcore/Dbghelp DLLs,high,experimental,rules,1,T1003.001;T1685
+SDWIN-201019002900,1cf465a1-2609-4c15-9b66-c32dbe4bfd67,Legitimate Application Writing Files In Uncommon Location,high,experimental,rules,1,T1105;T1218
+SDWIN-201019002900,333cdbe8-27bb-4246-bf82-b41a0dca4b70,Suspicious Volume Shadow Copy VSS_PS.dll Load,high,test,rules,1,T1490
+SDWIN-201019002900,4e87b8e2-2ee9-4b2a-a715-4727d297ece0,Potential SAM Database Dump,high,test,rules,1,T1003.002
+SDWIN-201019002900,5aad0995-46ab-41bd-a9ff-724f41114971,Esentutl Volume Shadow Copy Service Keys - Generic,high,test,rules,37,T1003.002
+SDWIN-201019002900,e7be6119-fc37-43f0-ad4f-1f3f99be2f9f,Copying Sensitive Files with Credential Data - Generic,high,test,rules,2,T1003.002;T1003.003
+SDWIN-201019002900,e9faba72-4974-4ab2-a4c5-46e25ad59e9b,VSSAudit Security Event Source Registration,informational,test,rules,2,T1003.002
+SDWIN-201019033054,259e5a6a-b8d2-4c38-86e2-26c5e651361d,PsExec Service File Creation,low,test,rules,1,T1569.002
+SDWIN-201019033054,25ffa65d-76d8-4da5-a832-3f2b0136e133,PUA - Sysinternal Tool Execution - Registry - Generic,low,test,rules,1,T1588.002
+SDWIN-201019033054,297afac9-5d02-4138-8c58-b977bac60556,Creation of an Executable by an Executable,low,test,rules-threat-hunting,1,T1587.001
+SDWIN-201019033054,52d8b0c6-53d6-439a-9e41-52ad442ad9ad,First Time Seen Remote Named Pipe,high,test,rules,1,T1021.002
+SDWIN-201019033054,730fc21b-eaff-474b-ad23-90fd265d4988,Psexec Execution - Generic,medium,test,rules,2,T1021;T1569
+SDWIN-201019033054,7c0dcd3d-acf8-4f71-9570-f448b0034f94,PsExec Service Child Process Execution as LOCAL SYSTEM - Generic,high,test,rules,1,
+SDWIN-201019033054,7cccd811-7ae9-4ebe-9afd-cb5c406b824b,Potential Execution of Sysinternals Tools - Generic,low,test,rules,2,T1588.002
+SDWIN-201019033054,c7da8edc-49ae-45a2-9e61-9fd860e4e73d,PUA - Sysinternals Tools Execution - Registry - Generic,medium,test,rules,1,T1588.002
+SDWIN-201019033054,f3f3a972-f982-40ad-b63c-bca6afdfad7c,PsExec Default Named Pipe,low,test,rules-threat-hunting,2,T1569.002
+SDWIN-201019033054,fd877b94-9bb5-4191-bb25-d79cbd93c167,Dumping of Sensitive Hives Via Reg.EXE - Generic,high,test,rules,2,T1003.002;T1003.004;T1003.005
+SDWIN-201019033054,fdfcbd78-48f1-4a4b-90ac-d82241e368c5,PsExec Service Execution - Generic,medium,test,rules,2,
+SDWIN-201019224718,21d856f9-9281-4ded-9377-51a1a6e2a432,Potential Persistence Via Logon Scripts - CommandLine - Generic,high,test,rules,2,T1037.001
+SDWIN-201019224718,966315ef-c5e1-4767-ba25-fce9c8de3660,Suspicious Environment Variable Has Been Registered - Generic,high,test,rules,1,
+SDWIN-201019224718,9ace0707-b560-49b8-b6ca-5148b42f39fb,Potential Persistence Via Logon Scripts - Registry - Generic,medium,test,rules,1,T1037.001
+SDWIN-201019224718,f59c3faf-50f3-464b-9f4c-1b67ab512d99,Common Autorun Keys Modification - Generic,medium,test,rules,1,T1547.001
+SDWIN-201019232515,1f21ec3f-810d-4b0e-8045-322202e22b4b,Network Connection Initiated By PowerShell Process,low,test,rules-threat-hunting,2,T1059.001
+SDWIN-201019232515,4f73421b-5a0b-4bbf-a892-5a7fb99bea66,Mavinject Inject DLL Into Running Process - Generic,high,test,rules,2,T1055.001;T1218.013
+SDWIN-201019232515,7047d730-036f-4f40-b9d8-1c63e36d5e62,Potential Binary Or Script Dropper Via PowerShell,medium,test,rules,1,
+SDWIN-201019232515,a1a144b7-5c9b-4853-a559-2172be8d4a03,Remote Thread Creation In Uncommon Target Image,medium,test,rules,1,T1055.003
+SDWIN-201019232515,a24e5861-c6ca-4fde-a93c-ba9256feddf0,Uncommon Process Access Rights For Target Image,low,test,rules,2,T1055.011
+SDWIN-201019232515,e6474a1b-5390-49cd-ab41-8d88655f7394,Renamed Mavinject.EXE Execution - Generic,high,test,rules,1,T1055.001;T1218.013
+SDWIN-201021001911,1a5fefe6-734f-452e-a07d-fc1c35bce4b2,Firewall Rule Deleted Via Netsh.EXE - Generic,medium,test,rules,2,T1686.003
+SDWIN-201021001911,cd5cfd80-aa5f-44c0-9c20-108c4ae12e3c,New Firewall Rule Added Via Netsh.EXE - Generic,medium,test,rules,2,T1686.003
+SDWIN-201021204544,138d3531-8793-4f50-a2cd-f291b2863d78,Suspicious Service Path Modification - Generic,high,test,rules,2,T1543.003
+SDWIN-201021204544,38879043-7e1e-47a9-8d46-6bec88e201df,Potential Persistence Attempt Via Existing Service Tampering - Generic,medium,test,rules,4,T1543.003;T1574.011
+SDWIN-201021204544,4a5f5a5e-ac01-474b-9b4e-d61298c9df1d,PowerShell as a Service in Registry - Generic,high,test,rules,1,T1569.002
+SDWIN-201021204544,754ed792-634f-40ae-b3bc-e0448d33f695,Suspicious PowerShell Parent Process - Generic,high,test,rules,2,T1059.001
+SDWIN-201021204544,d522eca2-2973-4391-a3e0-ef0374321dae,Abused Debug Privilege by Arbitrary Parent Processes - Generic,high,test,rules,1,T1548
+SDWIN-201021204544,f4bbd493-b796-416e-bbf2-121235348529,Non Interactive PowerShell Process Spawned - Generic,low,test,rules,2,T1059.001
+SDWIN-201021232814,e13f668e-7f95-443d-98d2-1816a7648a7b,Detected Windows Software Discovery - Generic,medium,test,rules,2,T1518
+SDWIN-201022002145,1cf465a1-2609-4c15-9b66-c32dbe4bfd67,Legitimate Application Writing Files In Uncommon Location,high,experimental,rules,2,T1105;T1218
+SDWIN-201022002145,1f21ec3f-810d-4b0e-8045-322202e22b4b,Network Connection Initiated By PowerShell Process,low,test,rules-threat-hunting,2,T1059.001
+SDWIN-201022002145,3037d961-21e9-4732-b27a-637bcc7bf539,Suspicious High IntegrityLevel Conhost Legacy Option - Generic,informational,test,rules,1,T1202
+SDWIN-201022002145,52cad028-0ff0-4854-8f67-d25dfcbc78b4,HTML Help HH.EXE Suspicious Child Process - Generic,high,test,rules,2,T1047;T1059.001;T1059.003;T1059.005;T1059.007;T1218;T1218.001;T1218.010;T1218.011;T1566;T1566.001
+SDWIN-201022002145,68c8acb4-1b60-4890-8e82-3ddf7a6dba84,HH.EXE Execution - Generic,low,test,rules,2,T1218.001
+SDWIN-201022002145,7047d730-036f-4f40-b9d8-1c63e36d5e62,Potential Binary Or Script Dropper Via PowerShell,medium,test,rules,1,
+SDWIN-201022002145,a24e5861-c6ca-4fde-a93c-ba9256feddf0,Uncommon Process Access Rights For Target Image,low,test,rules,2,T1055.011
+SDWIN-201022002145,e4b6d2a7-d8a4-4f19-acbd-943c16d90647,Potentially Suspicious PowerShell Child Processes - Generic,medium,test,rules-threat-hunting,2,T1059.001
+SDWIN-201022013121,0ba863e6-def5-4e50-9cea-4dd8c7dc46a4,Control Panel Items - Generic,high,test,rules,2,T1218.002;T1546
+SDWIN-201022013121,16a4c7b3-4681-49d0-8d58-3e9b796dcb43,Potential Raspberry Robin Registry Set Internet Settings ZoneMap - Generic,low,test,rules-emerging-threats,8,T1112
+SDWIN-201022013121,1f21ec3f-810d-4b0e-8045-322202e22b4b,Network Connection Initiated By PowerShell Process,low,test,rules-threat-hunting,2,T1059.001
+SDWIN-201022013121,3037d961-21e9-4732-b27a-637bcc7bf539,Suspicious High IntegrityLevel Conhost Legacy Option - Generic,informational,test,rules,1,T1202
+SDWIN-201022013121,9be34ad0-b6a7-4fbd-91cf-fc7ec1047f5f,UNC2452 Process Creation Patterns - Generic,high,test,rules-emerging-threats,1,T1059.001
+SDWIN-201022013121,a24e5861-c6ca-4fde-a93c-ba9256feddf0,Uncommon Process Access Rights For Target Image,low,test,rules,2,T1055.011
+SDWIN-201022013121,b5de0c9a-6f19-43e0-af4e-55ad01f550af,Unsigned DLL Loaded by Windows Utility,medium,test,rules,1,T1218.010;T1218.011
+SDWIN-201022013121,e593cf51-88db-4ee1-b920-37e89012a3c9,Potentially Suspicious Rundll32 Activity - Generic,medium,test,rules,1,T1218.011
+SDWIN-201022013121,e79a9e79-eb72-4e78-a628-0e7e8f59e89c,DLL Call by Ordinal Via Rundll32.EXE - Generic,medium,stable,rules-threat-hunting,2,T1218.011
+SDWIN-201022015432,1f21ec3f-810d-4b0e-8045-322202e22b4b,Network Connection Initiated By PowerShell Process,low,test,rules-threat-hunting,2,T1059.001
+SDWIN-201022015432,3037d961-21e9-4732-b27a-637bcc7bf539,Suspicious High IntegrityLevel Conhost Legacy Option - Generic,informational,test,rules,1,T1202
+SDWIN-201022015432,3b4b232a-af90-427c-a22f-30b0c0837b95,CMSTP Execution Process Access,high,stable,rules,1,T1218.003;T1559.001
+SDWIN-201022015432,49f2f17b-b4c8-4172-a68b-d5bf95d05130,UAC Bypass via ICMLuaUtil - Generic,high,test,rules,1,T1548.002
+SDWIN-201022015432,4b60e6f2-bf39-47b4-b4ea-398e33cfe253,CMSTP UAC Bypass via COM Object Access - Generic,high,stable,rules,1,T1218.003;T1548.002
+SDWIN-201022015432,4b991083-3d0e-44ce-8fc4-b254025d8d4b,Unusual Parent Process For Cmd.EXE - Generic,medium,test,rules,2,T1059
+SDWIN-201022015432,502b42de-4306-40b4-9596-6f590c81f073,Local Accounts Discovery - Generic,low,test,rules,2,T1033;T1087.001
+SDWIN-201022015432,b6d235fc-1d38-4b12-adbe-325f06728f37,CMSTP App Paths Registry Key Modification - Generic,high,stable,rules,1,T1218.003
+SDWIN-201022015432,e66779cc-383e-4224-a3a4-267eeb585c40,Bypass UAC via CMSTP - Generic,high,test,rules,2,T1218.003;T1548.002
+SDWIN-201022022144,1cf465a1-2609-4c15-9b66-c32dbe4bfd67,Legitimate Application Writing Files In Uncommon Location,high,experimental,rules,1,T1105;T1218
+SDWIN-201022022144,67f113fa-e23d-4271-befa-30113b3e08b1,Suspicious JavaScript Execution Via Mshta.EXE - Generic,high,test,rules,2,T1218.005
+SDWIN-201022022144,7f4c43f9-b1a5-4c7d-b24a-b41bf3a3ebf2,Registry Tampering by Potentially Suspicious Processes - Generic,medium,experimental,rules,11,T1059.005;T1112
+SDWIN-201022022144,a24e5861-c6ca-4fde-a93c-ba9256feddf0,Uncommon Process Access Rights For Target Image,low,test,rules,2,T1055.011
+SDWIN-201022022144,b98d0db6-511d-45de-ad02-e82a98729620,Remotely Hosted HTA File Executed Via Mshta.EXE - Generic,high,test,rules,2,T1218.005
+SDWIN-201022025808,03cc0c25-389f-4bf8-b48d-11878079f1ca,Suspicious MSHTA Child Process - Generic,high,test,rules,2,T1218.005
+SDWIN-201022025808,2c28c248-7f50-417a-9186-a85b223010ee,Wscript Shell Run In CommandLine - Generic,medium,test,rules,2,T1059
+SDWIN-201022025808,3037d961-21e9-4732-b27a-637bcc7bf539,Suspicious High IntegrityLevel Conhost Legacy Option - Generic,informational,test,rules,1,T1202
+SDWIN-201022025808,754ed792-634f-40ae-b3bc-e0448d33f695,Suspicious PowerShell Parent Process - Generic,high,test,rules,2,T1059.001
+SDWIN-201022025808,7f4c43f9-b1a5-4c7d-b24a-b41bf3a3ebf2,Registry Tampering by Potentially Suspicious Processes - Generic,medium,experimental,rules,8,T1059.005;T1112
+SDWIN-201022025808,ac7102b4-9e1e-4802-9b4f-17c5524c015c,New PowerShell Instance Created,informational,test,rules,1,T1059.001
+SDWIN-201022025808,cc7abbd0-762b-41e3-8a26-57ad50d2eea3,MSHTA Execution with Suspicious File Extensions - Generic,high,test,rules,2,T1059.007;T1140;T1218.005
+SDWIN-201022025808,f4bbd493-b796-416e-bbf2-121235348529,Non Interactive PowerShell Process Spawned - Generic,low,test,rules,2,T1059.001
+SDWIN-201022035214,03cc0c25-389f-4bf8-b48d-11878079f1ca,Suspicious MSHTA Child Process - Generic,high,test,rules,2,T1218.005
+SDWIN-201022035214,1228c958-e64e-4e71-92ad-7d429f4138ba,Script Interpreter Execution From Suspicious Folder - Generic,high,test,rules,2,T1059
+SDWIN-201022035214,1f21ec3f-810d-4b0e-8045-322202e22b4b,Network Connection Initiated By PowerShell Process,low,test,rules-threat-hunting,1,T1059.001
+SDWIN-201022035214,28208707-fe31-437f-9a7f-4b1108b94d2e,Suspicious Startup Folder Persistence,high,test,rules,1,T1204.002;T1547.001
+SDWIN-201022035214,2aa0a6b4-a865-495b-ab51-c28249537b75,Startup Folder File Write,medium,test,rules,1,T1547.001
+SDWIN-201022035214,3037d961-21e9-4732-b27a-637bcc7bf539,Suspicious High IntegrityLevel Conhost Legacy Option - Generic,informational,test,rules,1,T1202
+SDWIN-201022035214,3a6586ad-127a-4d3b-a677-1e6eacdf8fde,Windows Shell/Scripting Processes Spawning Suspicious Programs - Generic,high,test,rules,2,T1059.001;T1059.005;T1218
+SDWIN-201022035214,7047d730-036f-4f40-b9d8-1c63e36d5e62,Potential Binary Or Script Dropper Via PowerShell,medium,test,rules,1,
+SDWIN-201022035214,7f4c43f9-b1a5-4c7d-b24a-b41bf3a3ebf2,Registry Tampering by Potentially Suspicious Processes - Generic,medium,experimental,rules,8,T1059.005;T1112
+SDWIN-201022035214,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,4,T1053.005
+SDWIN-201022035214,a24e5861-c6ca-4fde-a93c-ba9256feddf0,Uncommon Process Access Rights For Target Image,low,test,rules,2,T1055.011
+SDWIN-201022035214,cea72823-df4d-4567-950c-0b579eaf0846,Potential Dropper Script Execution Via WScript/CScript/MSHTA - Generic,medium,test,rules,2,T1059.005;T1059.007
+SDWIN-201022035214,e4b6d2a7-d8a4-4f19-acbd-943c16d90647,Potentially Suspicious PowerShell Child Processes - Generic,medium,test,rules-threat-hunting,2,T1059.001
+SDWIN-201022042947,092bc4b9-3d1d-43b4-a6b4-8c8acd83522f,PowerShell Core DLL Loaded By Non PowerShell Process,medium,test,rules,2,T1059.001
+SDWIN-201022042947,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,31,T1531
+SDWIN-201022042947,1027d292-dd87-4a1a-8701-2abe04d7783c,PSScriptPolicyTest Creation By Uncommon Process,medium,test,rules,2,
+SDWIN-201022042947,12ba6a38-adb3-4d6b-91ba-a7fb248e3199,Password Policy Enumerated,medium,test,rules,1,T1201
+SDWIN-201022042947,13acf386-b8c6-4fe0-9a6e-c4756b974698,Remote PowerShell Sessions Network Connections (WinRM),high,test,rules,9,T1059.001
+SDWIN-201022042947,16a4c7b3-4681-49d0-8d58-3e9b796dcb43,Potential Raspberry Robin Registry Set Internet Settings ZoneMap - Generic,low,test,rules-emerging-threats,8,T1112
+SDWIN-201022042947,3037d961-21e9-4732-b27a-637bcc7bf539,Suspicious High IntegrityLevel Conhost Legacy Option - Generic,informational,test,rules,3,T1202
+SDWIN-201022042947,496a0e47-0a33-4dca-b009-9e6ca3591f39,Suspicious Kerberos RC4 Ticket Encryption,medium,test,rules,5,T1558.003
+SDWIN-201022042947,5cc2cda8-f261-4d88-a2de-e9e193c86716,Suspicious Processes Spawned by WinRM - Generic,high,test,rules,6,T1190
+SDWIN-201022042947,64e8e417-c19a-475a-8d19-98ea705394cc,Alternate PowerShell Hosts - PowerShell Module,medium,test,rules,273,T1059.001
+SDWIN-201022042947,734f8d9b-42b8-41b2-bcf5-abaf49d5a3c8,Remote PowerShell Session Host Process (WinRM) - Generic,medium,test,rules,12,T1021.006;T1059.001
+SDWIN-201022042947,75bf09fa-1dd7-4d18-9af9-dd9e492562eb,ADSI-Cache File Creation By Uncommon Tool,medium,test,rules,1,T1001.003
+SDWIN-201022042947,a21bcd7e-38ec-49ad-b69a-9ea17e69509e,DNS Server Discovery Via LDAP Query,low,test,rules,2,T1482
+SDWIN-201022042947,ac7102b4-9e1e-4802-9b4f-17c5524c015c,New PowerShell Instance Created,informational,test,rules,7,T1059.001
+SDWIN-201022042947,ad1f4bb9-8dfb-4765-adb6-2a7cfb6c0f94,Suspicious WSMAN Provider Image Loads,medium,test,rules,5,T1021.003;T1059.001
+SDWIN-201022042947,bbb9495b-58fc-4016-b9df-9a3a1b67ca82,Password Policy Discovery With Get-AdDefaultDomainPasswordPolicy,low,test,rules,1,T1201
+SDWIN-201022042947,c539afac-c12a-46ed-b1bd-5a5567c9f045,Potential Remote PowerShell Session Initiated,high,test,rules,9,T1021.006;T1059.001
+SDWIN-201022042947,d04ae2b8-ad54-4de0-bd87-4bc1da66aa59,Kerberoasting Activity - Initial Query,medium,test,rules,5,T1558.003
+SDWIN-201022042947,d88d0ab2-e696-4d40-a2ed-9790064e66b3,Modification of IE Registry Settings - Generic,low,test,rules,168,T1112
+SDWIN-201022042947,f4bbd493-b796-416e-bbf2-121235348529,Non Interactive PowerShell Process Spawned - Generic,low,test,rules,6,T1059.001
+SDWIN-201022042947,ff23ffbc-3378-435e-992f-0624dcf93ab4,HackTool - PurpleSharp Execution - Generic,critical,test,rules,2,T1587
+SDWIN-201023020513,1f21ec3f-810d-4b0e-8045-322202e22b4b,Network Connection Initiated By PowerShell Process,low,test,rules-threat-hunting,2,T1059.001
+SDWIN-201023020513,7047d730-036f-4f40-b9d8-1c63e36d5e62,Potential Binary Or Script Dropper Via PowerShell,medium,test,rules,1,
+SDWIN-201023020513,a24e5861-c6ca-4fde-a93c-ba9256feddf0,Uncommon Process Access Rights For Target Image,low,test,rules,4,T1055.011
+SDWIN-201023020513,a2910908-e86f-4687-aeba-76a5f996e652,DLL Execution Via Register-cimprovider.exe - Generic,medium,test,rules,2,T1574
+SDWIN-201023023651,2ddef153-167b-4e89-86b6-757a9e65dcac,File Download Via Bitsadmin To A Suspicious Target Folder - Generic,high,test,rules,2,T1036.003;T1105;T1197
+SDWIN-201023023651,5b80a791-ad9b-4b75-bcc1-ad4e1e89c200,File With Suspicious Extension Downloaded Via Bitsadmin - Generic,high,test,rules,2,T1036.003;T1105;T1197
+SDWIN-201023023651,8518ed3d-f7c9-4601-a26c-f361a4256a0c,Suspicious Download From File-Sharing Website Via Bitsadmin - Generic,high,test,rules,2,T1036.003;T1105;T1197
+SDWIN-201023023651,d059842b-6b9d-4ed1-b5c3-5b89143c6ede,File Download Via Bitsadmin - Generic,medium,test,rules,2,T1036.003;T1105;T1197
+SDWIN-201023023651,e700ff14-1bff-4d1d-9438-738dff5f0466,BITS Client BitsProxy DLL Loaded By Uncommon Process,low,experimental,rules-threat-hunting,1,T1197
+SDWIN-201023031210,3037d961-21e9-4732-b27a-637bcc7bf539,Suspicious High IntegrityLevel Conhost Legacy Option - Generic,informational,test,rules,1,T1202
+SDWIN-201023031210,a1a144b7-5c9b-4853-a559-2172be8d4a03,Remote Thread Creation In Uncommon Target Image,medium,test,rules,1,T1055.003
+SDWIN-201023031210,a24e5861-c6ca-4fde-a93c-ba9256feddf0,Uncommon Process Access Rights For Target Image,low,test,rules,5,T1055.011
+SDWIN-201023031210,cbec226f-63d9-4eca-9f52-dfb6652f24df,Suspicious Process Parents - Generic,high,test,rules,2,T1036
+SDWIN-201023031210,d0d2f720-d14f-448d-8242-51ff396a334e,HackTool - Generic Process Access,high,test,rules,2,T1003.001
+SDWIN-201023031210,ff23ffbc-3378-435e-992f-0624dcf93ab4,HackTool - PurpleSharp Execution - Generic,critical,test,rules,2,T1587
+SDWIN-201026235835,297afac9-5d02-4138-8c58-b977bac60556,Creation of an Executable by an Executable,low,test,rules-threat-hunting,1,T1587.001
+SDWIN-201026235835,3037d961-21e9-4732-b27a-637bcc7bf539,Suspicious High IntegrityLevel Conhost Legacy Option - Generic,informational,test,rules,1,T1202
+SDWIN-201026235835,a642964e-bead-4bed-8910-1bb4d63e3b4d,HackTool - Mimikatz Execution - Generic,high,test,rules,2,T1003.001;T1003.002;T1003.004;T1003.005;T1003.006
+SDWIN-201029001615,cd5cfd80-aa5f-44c0-9c20-108c4ae12e3c,New Firewall Rule Added Via Netsh.EXE - Generic,medium,test,rules,4,T1686.003
+SDWIN-201029202324,6e90ae7a-7cd3-473f-a035-4ebb72d961da,PCRE.NET Package Temp Files,high,test,rules,1,T1059
+SDWIN-201029202324,75bf09fa-1dd7-4d18-9af9-dd9e492562eb,ADSI-Cache File Creation By Uncommon Tool,medium,test,rules,1,T1001.003
+SDWIN-201029202324,84b0a8f3-680b-4096-a45b-e9a89221727c,PCRE.NET Package Image Load,high,test,rules,3,T1059
+SDWIN-201029202324,a21bcd7e-38ec-49ad-b69a-9ea17e69509e,DNS Server Discovery Via LDAP Query,low,test,rules,2,T1482
+SDWIN-201029202324,b2317cfa-4a47-4ead-b3ff-297438c0bc2d,HackTool - SharpView Execution - Generic,high,test,rules,2,T1033;T1049;T1069.002;T1135;T1482
+SDWIN-201029202324,facd1549-e416-48e0-b8c4-41d7215eedc8,Amsi.DLL Load By Uncommon Process,low,test,rules-threat-hunting,1,T1490
+SDWIN-201102163918,38646daa-e78f-4ace-9de0-55547b2d30da,PUA - Seatbelt Execution - Generic,high,test,rules,2,T1083;T1087;T1526
+SDWIN-201102163918,671bb7e3-a020-4824-a00e-2ee5b55f385e,WMI Module Loaded By Uncommon Process,low,test,rules-threat-hunting,6,T1047
+SDWIN-201102163918,facd1549-e416-48e0-b8c4-41d7215eedc8,Amsi.DLL Load By Uncommon Process,low,test,rules-threat-hunting,1,T1490
+SDWIN-201219070027,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,1,T1531
+SDWIN-201219070027,1e33157c-53b1-41ad-bbcc-780b80b58288,WSF/JSE/JS/VBA/VBE File Execution Via Cscript/Wscript - Generic,medium,test,rules-threat-hunting,4,T1059.005;T1059.007
+SDWIN-201219070027,2617e7ed-adb7-40ba-b0f3-8f9945fe6c09,Suspicious SYSTEM User Process Creation - Generic,high,test,rules,2,T1003;T1027;T1134
+SDWIN-201219070027,7a02e22e-b885-4404-b38b-1ddc7e65258a,Suspicious Schtasks Schedule Type With High Privileges - Generic,medium,test,rules,2,T1053.005
+SDWIN-201219070027,89ca78fd-b37c-4310-b3d3-81a023f83936,Schtasks Creation Or Modification With SYSTEM Privileges - Generic,high,test,rules,2,T1053.005
+SDWIN-201219070027,92626ddd-662c-49e3-ac59-f6535f12d189,Scheduled Task Creation Via Schtasks.EXE - Generic,low,test,rules,2,T1053.005
+SDWIN-201219070027,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,14,T1053.005
+SDWIN-201219070027,a762e74f-4dce-477c-b023-4ed81df600f9,Scheduled Task Created - FileCreation,low,test,rules-threat-hunting,1,T1053.005
+SDWIN-201219070027,f2c64357-b1d2-41b7-849f-34d2682c0fad,Suspicious Command Patterns In Scheduled Task Creation - Generic,high,test,rules,2,T1053.005
+SDWIN-201219075059,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,1,T1531
+SDWIN-201219075059,1e33157c-53b1-41ad-bbcc-780b80b58288,WSF/JSE/JS/VBA/VBE File Execution Via Cscript/Wscript - Generic,medium,test,rules-threat-hunting,4,T1059.005;T1059.007
+SDWIN-201219075059,1f21ec3f-810d-4b0e-8045-322202e22b4b,Network Connection Initiated By PowerShell Process,low,test,rules-threat-hunting,3,T1059.001
+SDWIN-201219075059,2617e7ed-adb7-40ba-b0f3-8f9945fe6c09,Suspicious SYSTEM User Process Creation - Generic,high,test,rules,2,T1003;T1027;T1134
+SDWIN-201219075059,3037d961-21e9-4732-b27a-637bcc7bf539,Suspicious High IntegrityLevel Conhost Legacy Option - Generic,informational,test,rules,1,T1202
+SDWIN-201219075059,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,12,T1053.005
+SDWIN-201219075059,ac7102b4-9e1e-4802-9b4f-17c5524c015c,New PowerShell Instance Created,informational,test,rules,1,T1059.001
+SDWIN-210314014019,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,9,T1531
+SDWIN-210314014019,1e33157c-53b1-41ad-bbcc-780b80b58288,WSF/JSE/JS/VBA/VBE File Execution Via Cscript/Wscript - Generic,medium,test,rules-threat-hunting,1,T1059.005;T1059.007
+SDWIN-210314014019,2617e7ed-adb7-40ba-b0f3-8f9945fe6c09,Suspicious SYSTEM User Process Creation - Generic,high,test,rules,1,T1003;T1027;T1134
+SDWIN-210314014019,502b42de-4306-40b4-9596-6f590c81f073,Local Accounts Discovery - Generic,low,test,rules,4,T1033;T1087.001
+SDWIN-210314014019,61065c72-5d7d-44ef-bf41-6a36684b545f,Elevated System Shell Spawned - Generic,medium,test,rules-threat-hunting,2,T1059
+SDWIN-210314014019,79ce34ca-af29-4d0e-b832-fc1b377020db,Whoami.EXE Execution From Privileged Process - Generic,high,test,rules,2,T1033
+SDWIN-210314014019,8202070f-edeb-4d31-a010-a26c72ac5600,Suspicious Process By Web Server Process - Generic,high,test,rules,4,T1190;T1505.003
+SDWIN-210314014019,bef0bc5a-b9ae-425d-85c6-7b2d705980c6,Python Initiated Connection,medium,test,rules,10,T1046
+SDWIN-210314014019,f35c5d71-b489-4e22-a115-f003df287317,Potential CobaltStrike Process Patterns - Generic,high,test,rules,2,T1059
+SDWIN-210611210814,15619216-e993-4721-b590-4c520615a67d,Potential Meterpreter/CobaltStrike Activity - Generic,high,test,rules,2,T1134.001;T1134.002
+SDWIN-210611210814,1e33157c-53b1-41ad-bbcc-780b80b58288,WSF/JSE/JS/VBA/VBE File Execution Via Cscript/Wscript - Generic,medium,test,rules-threat-hunting,2,T1059.005;T1059.007
+SDWIN-210611210814,2617e7ed-adb7-40ba-b0f3-8f9945fe6c09,Suspicious SYSTEM User Process Creation - Generic,high,test,rules,1,T1003;T1027;T1134
+SDWIN-210611210814,27a72a60-7e5e-47b1-9d17-909c9abafdcd,Potentially Suspicious Compression Tool Parameters - Generic,medium,test,rules-threat-hunting,1,T1560.001
+SDWIN-210611210814,297afac9-5d02-4138-8c58-b977bac60556,Creation of an Executable by an Executable,low,test,rules-threat-hunting,1,T1587.001
+SDWIN-210611210814,3037d961-21e9-4732-b27a-637bcc7bf539,Suspicious High IntegrityLevel Conhost Legacy Option - Generic,informational,test,rules,5,T1202
+SDWIN-210611210814,3286d37a-00fd-41c2-a624-a672dcd34e60,Curl.EXE Execution With Custom UserAgent - Generic,medium,test,rules-threat-hunting,2,T1071.001
+SDWIN-210611210814,4f4eaa9f-5ad4-410c-a4be-bc6132b0175a,CMD Shell Output Redirect - Generic,low,test,rules-threat-hunting,2,T1082
+SDWIN-210611210814,5cb299fc-5fb1-4d07-b989-0644c68b6043,Suspicious File Download From IP Via Curl.EXE - Generic,high,test,rules,2,
+SDWIN-210611210814,61065c72-5d7d-44ef-bf41-6a36684b545f,Elevated System Shell Spawned - Generic,medium,test,rules-threat-hunting,1,T1059
+SDWIN-210611210814,81bcb81b-5b1f-474b-b373-52c871aaa7b1,Stop Windows Service Via Sc.EXE - Generic,low,test,rules,2,T1489
+SDWIN-210611210814,85ff530b-261d-48c6-a441-facaa2e81e48,New Service Creation Using Sc.EXE - Generic,low,test,rules,2,T1543.003
+SDWIN-210611210814,86085955-ea48-42a2-9dd3-85d4c36b167d,Process Terminated Via Taskkill - Generic,low,test,rules-threat-hunting,10,T1489
+SDWIN-210611210814,9a517fca-4ba3-4629-9278-a68694697b81,File Download Via Curl.EXE - Generic,medium,test,rules-threat-hunting,2,T1105
+SDWIN-210611210814,9bd04a79-dabe-4f1f-a5ff-92430265c96b,Privilege Escalation via Named Pipe Impersonation - Generic,high,test,rules,2,T1021
+SDWIN-210611210814,a24e5861-c6ca-4fde-a93c-ba9256feddf0,Uncommon Process Access Rights For Target Image,low,test,rules,12,T1055.011
+SDWIN-210611210814,bbeaed61-1990-4773-bf57-b81dbad7db2d,Curl.EXE Execution - Generic,low,test,rules-threat-hunting,2,T1105
+SDWIN-210611210814,d522eca2-2973-4391-a3e0-ef0374321dae,Abused Debug Privilege by Arbitrary Parent Processes - Generic,high,test,rules,1,T1548
+SDWIN-210611210814,d5601f8c-b26f-4ab0-9035-69e11a8d4ad2,CobaltStrike Named Pipe,critical,test,rules,4,T1055
+SDWIN-210611210814,e218595b-bbe7-4ee5-8a96-f32a24ad3468,Suspicious Curl.EXE Download - Generic,high,test,rules,2,T1105
+SDWIN-210611210814,ecbc5e16-58e0-4521-9c60-eb9a7ea4ad34,Meterpreter or Cobalt Strike Getsystem Service Installation - Security,high,test,rules,1,T1134.001;T1134.002
+SDWIN-220630130349,0a13e132-651d-11eb-ae93-0242ac130002,Audit Policy Tampering Via Auditpol - Generic,high,test,rules,12,T1685.001
+SDWIN-220630130349,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,1,T1531
+SDWIN-220630130349,16a4c7b3-4681-49d0-8d58-3e9b796dcb43,Potential Raspberry Robin Registry Set Internet Settings ZoneMap - Generic,low,test,rules-emerging-threats,8,T1112
+SDWIN-220630130349,3037d961-21e9-4732-b27a-637bcc7bf539,Suspicious High IntegrityLevel Conhost Legacy Option - Generic,informational,test,rules,6,T1202
+SDWIN-220630130349,4a1b6da0-d94f-4fc3-98fc-2d9cb9e5ee76,Potentially Suspicious AccessMask Requested From LSASS,medium,test,rules,4,T1003.001
+SDWIN-220630130349,69aeb277-f15f-4d2d-b32a-55e883609563,Windows Event Auditing Disabled,low,test,rules,45,T1685.001
+SDWIN-220630130349,7eac0a16-5832-4e81-865f-0268a6d19e4b,ADS Zone.Identifier Deleted,low,test,rules-threat-hunting,1,T1070.004
+SDWIN-220630130349,ab4561b1-6c7e-48a7-ad08-087cfb9ce8f1,Important Windows Event Auditing Disabled,high,test,rules,18,T1685.001
+SDWIN-220630130349,db809f10-56ce-4420-8c86-d6a7d793c79c,Potential Defense Evasion Via Raw Disk Access By Uncommon Tools,low,test,rules,16,T1006
+SDWIN-220703123711,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,2,T1531
+SDWIN-220703123711,16a4c7b3-4681-49d0-8d58-3e9b796dcb43,Potential Raspberry Robin Registry Set Internet Settings ZoneMap - Generic,low,test,rules-emerging-threats,16,T1112
+SDWIN-220703123711,3037d961-21e9-4732-b27a-637bcc7bf539,Suspicious High IntegrityLevel Conhost Legacy Option - Generic,informational,test,rules,1,T1202
+SDWIN-220703123711,7eac0a16-5832-4e81-865f-0268a6d19e4b,ADS Zone.Identifier Deleted,low,test,rules-threat-hunting,2,T1070.004
+SDWIN-220703123711,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,4,T1053.005
+SDWIN-220705170038,0248a7bc-8a9a-4cd8-a57e-3ae8e073a073,ISO Image Mounted,medium,test,rules,2,T1566.001
+SDWIN-220705170038,0cb8d736-995d-4ce7-a31e-1e8d452a1459,Potential EventLog File Location Tampering - Generic,high,test,rules,1,T1685.001
+SDWIN-220705170038,16a4c7b3-4681-49d0-8d58-3e9b796dcb43,Potential Raspberry Robin Registry Set Internet Settings ZoneMap - Generic,low,test,rules-emerging-threats,8,T1112
+SDWIN-220705170038,3037d961-21e9-4732-b27a-637bcc7bf539,Suspicious High IntegrityLevel Conhost Legacy Option - Generic,informational,test,rules,1,T1202
+SDWIN-220705170038,60936b49-fca0-4f32-993d-7415edcf9a5d,New Application in AppCompat - Generic,informational,test,rules,1,T1204.002
+SDWIN-220705170038,65236ec7-ace0-4f0c-82fd-737b04fd4dcb,EVTX Created In Uncommon Location,medium,test,rules,1,T1685.001
+SDWIN-220705170038,7eac0a16-5832-4e81-865f-0268a6d19e4b,ADS Zone.Identifier Deleted,low,test,rules-threat-hunting,1,T1070.004
+SDWIN-220705170038,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,331,T1053.005
+SDWIN-220705170038,bafd07c6-3ea5-454a-b4be-058fbb073de7,Potential Executable Run Itself As Sacrificial Process - Generic,low,experimental,rules-threat-hunting,1,T1055
+SDWIN-220705170038,cc36992a-4671-4f21-a91d-6c2b72a2edf5,Suspicious Eventlog Clearing or Configuration Change Activity - Generic,high,stable,rules,1,T1685.001;T1685.005
+SDWIN-220705170038,e700ff14-1bff-4d1d-9438-738dff5f0466,BITS Client BitsProxy DLL Loaded By Uncommon Process,low,experimental,rules-threat-hunting,1,T1197
+SDWIN-220708104215,092bc4b9-3d1d-43b4-a6b4-8c8acd83522f,PowerShell Core DLL Loaded By Non PowerShell Process,medium,test,rules,1,T1059.001
+SDWIN-220708104215,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,3,T1531
+SDWIN-220708104215,1027d292-dd87-4a1a-8701-2abe04d7783c,PSScriptPolicyTest Creation By Uncommon Process,medium,test,rules,2,
+SDWIN-220708104215,16a4c7b3-4681-49d0-8d58-3e9b796dcb43,Potential Raspberry Robin Registry Set Internet Settings ZoneMap - Generic,low,test,rules-emerging-threats,24,T1112
+SDWIN-220708104215,3037d961-21e9-4732-b27a-637bcc7bf539,Suspicious High IntegrityLevel Conhost Legacy Option - Generic,informational,test,rules,1,T1202
+SDWIN-220708104215,58cb02d5-78ce-4692-b3e1-dce850aae41a,Alternate PowerShell Hosts Pipe,medium,test,rules,1,T1059.001
+SDWIN-220708104215,60936b49-fca0-4f32-993d-7415edcf9a5d,New Application in AppCompat - Generic,informational,test,rules,3,T1204.002
+SDWIN-220708104215,64e8e417-c19a-475a-8d19-98ea705394cc,Alternate PowerShell Hosts - PowerShell Module,medium,test,rules,15,T1059.001
+SDWIN-220708104215,7d0d0329-0ef1-4e84-a9f5-49500f9d7c6c,Malicious PowerShell Commandlets - PoshModule,high,test,rules,3,T1059.001;T1069;T1069.001;T1069.002;T1087;T1087.001;T1087.002;T1482
+SDWIN-220708104215,7eac0a16-5832-4e81-865f-0268a6d19e4b,ADS Zone.Identifier Deleted,low,test,rules-threat-hunting,3,T1070.004
+SDWIN-220708104215,89819aa4-bbd6-46bc-88ec-c7f7fe30efa6,Malicious PowerShell Commandlets - ScriptBlock,high,test,rules,3,T1059.001;T1069;T1069.001;T1069.002;T1087;T1087.001;T1087.002;T1482
+SDWIN-220708104215,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,26,T1053.005
+SDWIN-220708104215,ac7102b4-9e1e-4802-9b4f-17c5524c015c,New PowerShell Instance Created,informational,test,rules,1,T1059.001
+SDWIN-220708104215,ad1f4bb9-8dfb-4765-adb6-2a7cfb6c0f94,Suspicious WSMAN Provider Image Loads,medium,test,rules,1,T1021.003;T1059.001
+SDWIN-220708104215,facd1549-e416-48e0-b8c4-41d7215eedc8,Amsi.DLL Load By Uncommon Process,low,test,rules-threat-hunting,1,T1490
+SDWIN-220708104300,092bc4b9-3d1d-43b4-a6b4-8c8acd83522f,PowerShell Core DLL Loaded By Non PowerShell Process,medium,test,rules,2,T1059.001
+SDWIN-220708104300,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,4,T1531
+SDWIN-220708104300,1027d292-dd87-4a1a-8701-2abe04d7783c,PSScriptPolicyTest Creation By Uncommon Process,medium,test,rules,4,
+SDWIN-220708104300,16a4c7b3-4681-49d0-8d58-3e9b796dcb43,Potential Raspberry Robin Registry Set Internet Settings ZoneMap - Generic,low,test,rules-emerging-threats,32,T1112
+SDWIN-220708104300,3037d961-21e9-4732-b27a-637bcc7bf539,Suspicious High IntegrityLevel Conhost Legacy Option - Generic,informational,test,rules,2,T1202
+SDWIN-220708104300,4f86b304-3e02-40e3-aa5d-e88a167c9617,Scheduled Task Deletion,low,test,rules-threat-hunting,1,T1053.005
+SDWIN-220708104300,58cb02d5-78ce-4692-b3e1-dce850aae41a,Alternate PowerShell Hosts Pipe,medium,test,rules,2,T1059.001
+SDWIN-220708104300,60936b49-fca0-4f32-993d-7415edcf9a5d,New Application in AppCompat - Generic,informational,test,rules,2,T1204.002
+SDWIN-220708104300,64e8e417-c19a-475a-8d19-98ea705394cc,Alternate PowerShell Hosts - PowerShell Module,medium,test,rules,33,T1059.001
+SDWIN-220708104300,7d0d0329-0ef1-4e84-a9f5-49500f9d7c6c,Malicious PowerShell Commandlets - PoshModule,high,test,rules,6,T1059.001;T1069;T1069.001;T1069.002;T1087;T1087.001;T1087.002;T1482
+SDWIN-220708104300,7eac0a16-5832-4e81-865f-0268a6d19e4b,ADS Zone.Identifier Deleted,low,test,rules-threat-hunting,4,T1070.004
+SDWIN-220708104300,89819aa4-bbd6-46bc-88ec-c7f7fe30efa6,Malicious PowerShell Commandlets - ScriptBlock,high,test,rules,6,T1059.001;T1069;T1069.001;T1069.002;T1087;T1087.001;T1087.002;T1482
+SDWIN-220708104300,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,54,T1053.005
+SDWIN-220708104300,ac7102b4-9e1e-4802-9b4f-17c5524c015c,New PowerShell Instance Created,informational,test,rules,4,T1059.001
+SDWIN-220708104300,ad1f4bb9-8dfb-4765-adb6-2a7cfb6c0f94,Suspicious WSMAN Provider Image Loads,medium,test,rules,2,T1021.003;T1059.001
+SDWIN-220708104300,b8fd0e93-ff58-4cbd-8f48-1c114e342e62,Windows Binaries Write Suspicious Extensions,high,test,rules,1,T1036
+SDWIN-220708104300,bafd07c6-3ea5-454a-b4be-058fbb073de7,Potential Executable Run Itself As Sacrificial Process - Generic,low,experimental,rules-threat-hunting,2,T1055
+SDWIN-220708104300,e700ff14-1bff-4d1d-9438-738dff5f0466,BITS Client BitsProxy DLL Loaded By Uncommon Process,low,experimental,rules-threat-hunting,2,T1197
+SDWIN-220708104300,f4bbd493-b796-416e-bbf2-121235348529,Non Interactive PowerShell Process Spawned - Generic,low,test,rules,4,T1059.001
+SDWIN-220708104300,facd1549-e416-48e0-b8c4-41d7215eedc8,Amsi.DLL Load By Uncommon Process,low,test,rules-threat-hunting,2,T1490
+SDWIN-220803205800,092bc4b9-3d1d-43b4-a6b4-8c8acd83522f,PowerShell Core DLL Loaded By Non PowerShell Process,medium,test,rules,2,T1059.001
+SDWIN-220803205800,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,6,T1531
+SDWIN-220803205800,1027d292-dd87-4a1a-8701-2abe04d7783c,PSScriptPolicyTest Creation By Uncommon Process,medium,test,rules,4,
+SDWIN-220803205800,16a4c7b3-4681-49d0-8d58-3e9b796dcb43,Potential Raspberry Robin Registry Set Internet Settings ZoneMap - Generic,low,test,rules-emerging-threats,48,T1112
+SDWIN-220803205800,1a4bd6af-99ac-4466-b5b2-7b72b4a05462,Security Event Logging Disabled via MiniNt Registry Key - Process - Generic,high,experimental,rules,1,T1112;T1685.001
+SDWIN-220803205800,3037d961-21e9-4732-b27a-637bcc7bf539,Suspicious High IntegrityLevel Conhost Legacy Option - Generic,informational,test,rules,2,T1202
+SDWIN-220803205800,58cb02d5-78ce-4692-b3e1-dce850aae41a,Alternate PowerShell Hosts Pipe,medium,test,rules,2,T1059.001
+SDWIN-220803205800,60936b49-fca0-4f32-993d-7415edcf9a5d,New Application in AppCompat - Generic,informational,test,rules,6,T1204.002
+SDWIN-220803205800,64e8e417-c19a-475a-8d19-98ea705394cc,Alternate PowerShell Hosts - PowerShell Module,medium,test,rules,32,T1059.001
+SDWIN-220803205800,7d0d0329-0ef1-4e84-a9f5-49500f9d7c6c,Malicious PowerShell Commandlets - PoshModule,high,test,rules,6,T1059.001;T1069;T1069.001;T1069.002;T1087;T1087.001;T1087.002;T1482
+SDWIN-220803205800,7eac0a16-5832-4e81-865f-0268a6d19e4b,ADS Zone.Identifier Deleted,low,test,rules-threat-hunting,6,T1070.004
+SDWIN-220803205800,8839e550-52d7-4958-9f2f-e13c1e736838,Security Event Logging Disabled via MiniNt Registry Key - Registry Set - Generic,high,experimental,rules,2,T1112;T1685.001
+SDWIN-220803205800,89819aa4-bbd6-46bc-88ec-c7f7fe30efa6,Malicious PowerShell Commandlets - ScriptBlock,high,test,rules,6,T1059.001;T1069;T1069.001;T1069.002;T1087;T1087.001;T1087.002;T1482
+SDWIN-220803205800,919f2ef0-be2d-4a7a-b635-eb2b41fde044,Disable Security Events Logging Adding Reg Key MiniNt - Generic,high,test,rules,6,T1112;T1685.001
+SDWIN-220803205800,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,133,T1053.005
+SDWIN-220803205800,ac7102b4-9e1e-4802-9b4f-17c5524c015c,New PowerShell Instance Created,informational,test,rules,2,T1059.001
+SDWIN-220803205800,ad1f4bb9-8dfb-4765-adb6-2a7cfb6c0f94,Suspicious WSMAN Provider Image Loads,medium,test,rules,2,T1021.003;T1059.001
+SDWIN-220803205800,b8fd0e93-ff58-4cbd-8f48-1c114e342e62,Windows Binaries Write Suspicious Extensions,high,test,rules,2,T1036
+SDWIN-220803205800,facd1549-e416-48e0-b8c4-41d7215eedc8,Amsi.DLL Load By Uncommon Process,low,test,rules-threat-hunting,2,T1490
+SDWIN-230718150800,0b8baa3f-575c-46ee-8715-d6f28cc7d33c,NTDS.DIT Created,low,test,rules,1,T1003.003
+SDWIN-230718150800,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,15,T1531
+SDWIN-230718150800,11b1ed55-154d-4e82-8ad7-83739298f720,NTDS.DIT Creation By Uncommon Process,high,test,rules,1,T1003.002;T1003.003
+SDWIN-230718150800,12ba6a38-adb3-4d6b-91ba-a7fb248e3199,Password Policy Enumerated,medium,test,rules,8,T1201
+SDWIN-230718150800,3037d961-21e9-4732-b27a-637bcc7bf539,Suspicious High IntegrityLevel Conhost Legacy Option - Generic,informational,test,rules,1,T1202
+SDWIN-230718150800,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,4,T1053.005
+SDWIN-230718150800,b17ea6f7-6e90-447e-a799-e6c0a493d6ce,Shadow Copies Creation Using Operating Systems Utilities - Generic,medium,test,rules,2,T1003;T1003.002;T1003.003
+SDWIN-230718150800,c3e5c1b1-45e9-4632-b242-27939c170239,Sysmon Blocked File Shredding,high,test,rules,62,
+SDWIN-230718150800,e9faba72-4974-4ab2-a4c5-46e25ad59e9b,VSSAudit Security Event Source Registration,informational,test,rules,2,T1003.002
+SDWIN-230718150800,fd877b94-9bb5-4191-bb25-d79cbd93c167,Dumping of Sensitive Hives Via Reg.EXE - Generic,high,test,rules,2,T1003.002;T1003.004;T1003.005
+SDWIN-230718151900,0b8baa3f-575c-46ee-8715-d6f28cc7d33c,NTDS.DIT Created,low,test,rules,1,T1003.003
+SDWIN-230718151900,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,4,T1531
+SDWIN-230718151900,12ba6a38-adb3-4d6b-91ba-a7fb248e3199,Password Policy Enumerated,medium,test,rules,186,T1201
+SDWIN-230718151900,2afafd61-6aae-4df4-baed-139fa1f4c345,Invocation of Active Directory Diagnostic Tool (ntdsutil.exe) - Generic,medium,test,rules,2,T1003.003
+SDWIN-230718151900,3037d961-21e9-4732-b27a-637bcc7bf539,Suspicious High IntegrityLevel Conhost Legacy Option - Generic,informational,test,rules,1,T1202
+SDWIN-230718151900,333cdbe8-27bb-4246-bf82-b41a0dca4b70,Suspicious Volume Shadow Copy VSS_PS.dll Load,high,test,rules,3,T1490
+SDWIN-230718151900,8bc64091-6875-4881-aaf9-7bd25b5dda08,Suspicious Process Patterns NTDS.DIT Exfil - Generic,high,test,rules,2,T1003.003
+SDWIN-230718151900,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,2,T1053.005
+SDWIN-230718151900,a58353df-af43-4753-bad0-cd83ef35eef5,Suspicious Usage Of Active Directory Diagnostic Tool (ntdsutil.exe) - Generic,medium,test,rules,2,T1003.003
+SDWIN-230718151900,bafd07c6-3ea5-454a-b4be-058fbb073de7,Potential Executable Run Itself As Sacrificial Process - Generic,low,experimental,rules-threat-hunting,2,T1055
+SDWIN-230718151900,c3e5c1b1-45e9-4632-b242-27939c170239,Sysmon Blocked File Shredding,high,test,rules,54,
+SDWIN-230718151900,e9faba72-4974-4ab2-a4c5-46e25ad59e9b,VSSAudit Security Event Source Registration,informational,test,rules,2,T1003.002
+SDWIN-230720004300,0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,test,rules,10,T1531
+SDWIN-230720004300,12ba6a38-adb3-4d6b-91ba-a7fb248e3199,Password Policy Enumerated,medium,test,rules,14,T1201
+SDWIN-230720004300,1f21ec3f-810d-4b0e-8045-322202e22b4b,Network Connection Initiated By PowerShell Process,low,test,rules-threat-hunting,1,T1059.001
+SDWIN-230720004300,3037d961-21e9-4732-b27a-637bcc7bf539,Suspicious High IntegrityLevel Conhost Legacy Option - Generic,informational,test,rules,1,T1202
+SDWIN-230720004300,35ba1d85-724d-42a3-889f-2e2362bcaf23,AD Privileged Users or Groups Reconnaissance,high,test,rules,2,T1087.002
+SDWIN-230720004300,3a525307-d100-48ae-b3b9-0964699d7f97,DMP/HDMP File Creation,low,test,rules-threat-hunting,1,
+SDWIN-230720004300,60936b49-fca0-4f32-993d-7415edcf9a5d,New Application in AppCompat - Generic,informational,test,rules,1,T1204.002
+SDWIN-230720004300,79f4ede3-402e-41c8-bc3e-ebbf5f162581,HackTool - Empire PowerShell Launch Parameters - Generic,high,test,rules,2,T1059.001
+SDWIN-230720004300,93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,test,rules-threat-hunting,4,T1053.005
+SDWIN-230720004300,ac7102b4-9e1e-4802-9b4f-17c5524c015c,New PowerShell Instance Created,informational,test,rules,1,T1059.001
+SDWIN-230720004300,ae7fbf8e-f3cb-49fd-8db4-5f3bed522c71,Suspicious PowerShell Invocations - Specific,high,test,rules,1,T1059.001
+SDWIN-230720004300,bafd07c6-3ea5-454a-b4be-058fbb073de7,Potential Executable Run Itself As Sacrificial Process - Generic,low,experimental,rules-threat-hunting,1,T1055
+SDWIN-230720004300,c3e5c1b1-45e9-4632-b242-27939c170239,Sysmon Blocked File Shredding,high,test,rules,24,
+SDWIN-230720004300,d0d28567-4b9a-45e2-8bbc-fb1b66a1f7f6,Unusually Long PowerShell CommandLine - Generic,low,test,rules-threat-hunting,2,T1059.001
+SDWIN-230720004300,e0d6c087-2d1c-47fd-8799-3904103c5a98,AMSI Bypass Pattern Assembly GetType,high,test,rules,1,T1685
+SDWIN-230720004300,f4bbd493-b796-416e-bbf2-121235348529,Non Interactive PowerShell Process Spawned - Generic,low,test,rules,2,T1059.001
+SDWIN-230720004300,fb843269-508c-4b76-8b8d-88679db22ce7,Suspicious Execution of Powershell with Base64 - Generic,medium,test,rules,2,T1059.001
+SDWIN-230720004300,fdb62a13-9a81-4e5c-a38f-ea93a16f6d7c,PowerShell Base64 Encoded FromBase64String Cmdlet - Generic,high,test,rules,2,T1059.001;T1140

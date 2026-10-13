@@ -1,0 +1,63 @@
+{
+ "n_cases": 97,
+ "n_pairs": 101,
+ "n_techniques": 55,
+ "n_parent_techniques": 33,
+ "attack_version": "19.2",
+ "n_rules_unique": 2833,
+ "background_rules": 5,
+ "total_events": 768555,
+ "pair_rate_exact_all": 0.6436,
+ "macro_rate_exact_all": 0.6534,
+ "tech_cov_exact_all": 0.7455,
+ "pair_rate_family_all": 0.7525,
+ "macro_rate_family_all": 0.7693,
+ "tech_cov_family_all": 0.8545,
+ "pair_rate_any_all": 0.9703,
+ "macro_rate_any_all": 0.9576,
+ "tech_cov_any_all": 0.9636,
+ "pair_rate_exact_medium+": 0.5941,
+ "macro_rate_exact_medium+": 0.5943,
+ "tech_cov_exact_medium+": 0.6909,
+ "pair_rate_family_medium+": 0.703,
+ "macro_rate_family_medium+": 0.7102,
+ "tech_cov_family_medium+": 0.8,
+ "pair_rate_any_medium+": 0.9208,
+ "macro_rate_any_medium+": 0.9286,
+ "tech_cov_any_medium+": 0.9455,
+ "pair_rate_exact_high+": 0.4356,
+ "macro_rate_exact_high+": 0.43,
+ "tech_cov_exact_high+": 0.5455,
+ "pair_rate_family_high+": 0.505,
+ "macro_rate_family_high+": 0.5161,
+ "tech_cov_family_high+": 0.6364,
+ "pair_rate_any_high+": 0.7327,
+ "macro_rate_any_high+": 0.75,
+ "tech_cov_any_high+": 0.8364,
+ "never_detected": [
+  "T1012",
+  "T1049",
+  "T1056.002",
+  "T1059.001",
+  "T1110.003",
+  "T1135",
+  "T1210",
+  "T1222.001"
+ ],
+ "never_detected_no_rule": [],
+ "relabelled_pairs": 7
+}
+threshold  true_detections  on_target_alerts  fp_alerts_upper  fp_alerts_lower  fp_per_detection_upper  fp_per_detection_lower  fp_rulehits_upper  fp_rulehits_lower  fp_rulehits_per_detection_upper  fp_rulehits_per_detection_lower
+      all               76              2413             7949             2538                  104.59                   33.39                742                185                             9.76                             2.43
+  medium+               71              2052             4520                0                   63.66                    0.00                378                  0                             5.32                             0.00
+    high+               51               330              908                0                   17.80                    0.00                152                  0                             2.98                             0.00
+              tactic  pairs  techniques  family_all  family_high  exact_all
+           execution     16           7    0.875000     0.500000   0.875000
+         persistence     12           8    1.000000     0.750000   1.000000
+privilege-escalation     18          12    0.888889     0.611111   0.777778
+             stealth     21          16    0.857143     0.714286   0.714286
+  defense-impairment      9           4    0.555556     0.444444   0.444444
+   credential-access     22           9    0.818182     0.545455   0.590909
+           discovery     10           8    0.600000     0.100000   0.600000
+    lateral-movement     17           6    0.529412     0.470588   0.411765
+          collection      2           2    0.500000     0.000000   0.500000

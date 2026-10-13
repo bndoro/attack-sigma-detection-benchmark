@@ -1,0 +1,4 @@
+threshold,true_detections,on_target_alerts,fp_alerts_upper,fp_alerts_lower,fp_per_detection_upper,fp_per_detection_lower,fp_rulehits_upper,fp_rulehits_lower,fp_rulehits_per_detection_upper,fp_rulehits_per_detection_lower
+all,76,2413,7949,2538,104.59,33.39,742,185,9.76,2.43
+medium+,71,2052,4520,0,63.66,0.0,378,0,5.32,0.0
+high+,51,330,908,0,17.8,0.0,152,0,2.98,0.0

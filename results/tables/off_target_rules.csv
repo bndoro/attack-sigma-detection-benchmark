@@ -1,0 +1,191 @@
+rule_id,title,level,cases,events,background,techniques
+0badd08f-c6a3-4630-90d3-6875cca440be,User Logoff Event,informational,69,831,True,T1531
+93ff0ceb-e0ef-4586-8cd8-a6c277d738e3,Scheduled Task Created - Registry - Generic,low,39,1397,True,T1053.005
+3037d961-21e9-4732-b27a-637bcc7bf539,Suspicious High IntegrityLevel Conhost Legacy Option - Generic,informational,29,42,True,T1202
+1f21ec3f-810d-4b0e-8045-322202e22b4b,Network Connection Initiated By PowerShell Process,low,25,229,True,T1059.001
+ac7102b4-9e1e-4802-9b4f-17c5524c015c,New PowerShell Instance Created,informational,23,39,True,T1059.001
+502b42de-4306-40b4-9596-6f590c81f073,Local Accounts Discovery - Generic,low,19,43,False,T1033;T1087.001
+64e8e417-c19a-475a-8d19-98ea705394cc,Alternate PowerShell Hosts - PowerShell Module,medium,16,2575,False,T1059.001
+f4bbd493-b796-416e-bbf2-121235348529,Non Interactive PowerShell Process Spawned - Generic,low,16,39,False,T1059.001
+1027d292-dd87-4a1a-8701-2abe04d7783c,PSScriptPolicyTest Creation By Uncommon Process,medium,14,33,False,
+e0d6c087-2d1c-47fd-8799-3904103c5a98,AMSI Bypass Pattern Assembly GetType,high,14,15,False,T1685
+ae7fbf8e-f3cb-49fd-8db4-5f3bed522c71,Suspicious PowerShell Invocations - Specific,high,13,14,False,T1059.001
+092bc4b9-3d1d-43b4-a6b4-8c8acd83522f,PowerShell Core DLL Loaded By Non PowerShell Process,medium,12,16,False,T1059.001
+12ba6a38-adb3-4d6b-91ba-a7fb248e3199,Password Policy Enumerated,medium,11,262,False,T1201
+bafd07c6-3ea5-454a-b4be-058fbb073de7,Potential Executable Run Itself As Sacrificial Process - Generic,low,11,40,False,T1055
+fb843269-508c-4b76-8b8d-88679db22ce7,Suspicious Execution of Powershell with Base64 - Generic,medium,11,24,False,T1059.001
+d0d28567-4b9a-45e2-8bbc-fb1b66a1f7f6,Unusually Long PowerShell CommandLine - Generic,low,11,21,False,T1059.001
+facd1549-e416-48e0-b8c4-41d7215eedc8,Amsi.DLL Load By Uncommon Process,low,11,14,False,T1490
+4a1b6da0-d94f-4fc3-98fc-2d9cb9e5ee76,Potentially Suspicious AccessMask Requested From LSASS,medium,10,42,False,T1003.001
+a24e5861-c6ca-4fde-a93c-ba9256feddf0,Uncommon Process Access Rights For Target Image,low,10,33,False,T1055.011
+61065c72-5d7d-44ef-bf41-6a36684b545f,Elevated System Shell Spawned - Generic,medium,10,22,False,T1059
+c86133ad-4725-4bd0-8170-210788e0a7ba,Net WebClient Casing Anomalies - Generic,high,10,19,False,T1059.001
+bbb9495b-58fc-4016-b9df-9a3a1b67ca82,Password Policy Discovery With Get-AdDefaultDomainPasswordPolicy,low,10,10,False,T1201
+79f4ede3-402e-41c8-bc3e-ebbf5f162581,HackTool - Empire PowerShell Launch Parameters - Generic,high,9,30,False,T1059.001
+ad1f4bb9-8dfb-4765-adb6-2a7cfb6c0f94,Suspicious WSMAN Provider Image Loads,medium,9,12,False,T1021.003;T1059.001
+58cb02d5-78ce-4692-b3e1-dce850aae41a,Alternate PowerShell Hosts Pipe,medium,9,11,False,T1059.001
+16a4c7b3-4681-49d0-8d58-3e9b796dcb43,Potential Raspberry Robin Registry Set Internet Settings ZoneMap - Generic,low,8,152,False,T1112
+60936b49-fca0-4f32-993d-7415edcf9a5d,New Application in AppCompat - Generic,informational,7,15,False,T1204.002
+7d0d0329-0ef1-4e84-a9f5-49500f9d7c6c,Malicious PowerShell Commandlets - PoshModule,high,6,32,False,T1059.001;T1069;T1069.001;T1069.002;T1087;T1087.001;T1087.002;T1482
+7eac0a16-5832-4e81-865f-0268a6d19e4b,ADS Zone.Identifier Deleted,low,6,17,False,T1070.004
+e4b6d2a7-d8a4-4f19-acbd-943c16d90647,Potentially Suspicious PowerShell Child Processes - Generic,medium,6,12,False,T1059.001
+178e615d-e666-498b-9630-9ed363038101,Elevated System Shell Spawned From Uncommon Parent Location - Generic,medium,6,11,False,T1059
+2617e7ed-adb7-40ba-b0f3-8f9945fe6c09,Suspicious SYSTEM User Process Creation - Generic,high,6,11,False,T1003;T1027;T1134
+a762e74f-4dce-477c-b023-4ed81df600f9,Scheduled Task Created - FileCreation,low,6,7,False,T1053.005
+1e33157c-53b1-41ad-bbcc-780b80b58288,WSF/JSE/JS/VBA/VBE File Execution Via Cscript/Wscript - Generic,medium,5,12,False,T1059.005;T1059.007
+3a525307-d100-48ae-b3b9-0964699d7f97,DMP/HDMP File Creation,low,5,6,False,
+e700ff14-1bff-4d1d-9438-738dff5f0466,BITS Client BitsProxy DLL Loaded By Uncommon Process,low,5,6,False,T1197
+7047d730-036f-4f40-b9d8-1c63e36d5e62,Potential Binary Or Script Dropper Via PowerShell,medium,5,5,False,
+250ae82f-736e-4844-a68b-0b5e8cc887da,Potential Shellcode Injection,medium,4,232,False,T1055
+db809f10-56ce-4420-8c86-d6a7d793c79c,Potential Defense Evasion Via Raw Disk Access By Uncommon Tools,low,4,25,False,T1006
+b3ad3c0f-c949-47a1-a30e-b0491ccae876,Uncommon Connection to Active Directory Web Services,medium,4,20,False,T1087
+671bb7e3-a020-4824-a00e-2ee5b55f385e,WMI Module Loaded By Uncommon Process,low,4,18,False,T1047
+5ef9853e-4d0e-4a70-846f-a9ca37d876da,Potential Credential Dumping Activity Via LSASS,medium,4,7,False,T1003.001
+678dfc63-fefb-47a5-a04c-26bcf8cc9f65,Uncommon GrantedAccess Flags On LSASS,medium,4,6,False,T1003.001
+96f697b0-b499-4e5d-9908-a67bec11cdb6,Removal of Potential COM Hijacking Registry Keys,medium,4,6,False,T1112
+78d5cab4-557e-454f-9fb9-a222bd0d5edc,External Remote SMB Logon from Public IP,high,4,5,False,T1078;T1110;T1133
+79ce34ca-af29-4d0e-b832-fc1b377020db,Whoami.EXE Execution From Privileged Process - Generic,high,4,5,False,T1033
+b8fd0e93-ff58-4cbd-8f48-1c114e342e62,Windows Binaries Write Suspicious Extensions,high,4,5,False,T1036
+00bb5bd5-1379-4fcf-a965-a5b6f7478064,Windows Firewall Settings Have Been Changed,low,4,4,False,T1686.003
+d522eca2-2973-4391-a3e0-ef0374321dae,Abused Debug Privilege by Arbitrary Parent Processes - Generic,high,4,4,False,T1548
+558eebe5-f2ba-4104-b339-36f7902bcc1a,File Creation Date Changed to Another Year,low,3,192,False,T1070.006
+c3e5c1b1-45e9-4632-b242-27939c170239,Sysmon Blocked File Shredding,high,3,140,False,
+7f4c43f9-b1a5-4c7d-b24a-b41bf3a3ebf2,Registry Tampering by Potentially Suspicious Processes - Generic,medium,3,27,False,T1059.005;T1112
+13acf386-b8c6-4fe0-9a6e-c4756b974698,Remote PowerShell Sessions Network Connections (WinRM),high,3,15,False,T1059.001
+89819aa4-bbd6-46bc-88ec-c7f7fe30efa6,Malicious PowerShell Commandlets - ScriptBlock,high,3,15,False,T1059.001;T1069;T1069.001;T1069.002;T1087;T1087.001;T1087.002;T1482
+acf2807c-805b-4042-aab9-f86b6ba9cb2b,Dynamic .NET Compilation Via Csc.EXE - Hunting - Generic,medium,3,12,False,T1027.004
+dcaa3f04-70c3-427a-80b4-b870d73c94c4,Dynamic .NET Compilation Via Csc.EXE - Generic,medium,3,12,False,T1027.004
+5a6b7c8d-9e0f-1a2b-3c4d-5e6f7a8b9c0d,Cmd Launched with Hidden Start Flags to Suspicious Targets - Generic,medium,3,10,False,T1564.003
+259a9cdf-c4dd-4fa2-b243-2269e5ab18a2,External Remote RDP Logon from Public IP,medium,3,6,False,T1078;T1110;T1133
+754ed792-634f-40ae-b3bc-e0448d33f695,Suspicious PowerShell Parent Process - Generic,high,3,6,False,T1059.001
+d3c3861d-c504-4c77-ba55-224ba82d0118,New Network Trace Capture Started Via Netsh.EXE - Generic,medium,3,6,False,T1040
+13addce7-47b2-4ca0-a98f-1de964d1d669,SCM Database Handle Failure,medium,3,4,False,T1010
+297afac9-5d02-4138-8c58-b977bac60556,Creation of an Executable by an Executable,low,3,3,False,T1587.001
+4a5f5a5e-ac01-474b-9b4e-d61298c9df1d,PowerShell as a Service in Registry - Generic,high,3,3,False,T1569.002
+75bf09fa-1dd7-4d18-9af9-dd9e492562eb,ADSI-Cache File Creation By Uncommon Tool,medium,3,3,False,T1001.003
+85b88e05-dadc-430b-8a9e-53ff1cd30aae,Potentially Suspicious Desktop Background Change Via Registry - Generic,medium,3,3,False,T1112;T1491.001
+b210394c-ba12-4f89-9117-44a2464b9511,SMB Create Remote File Admin Share,high,3,3,False,T1021.002
+e81528db-fc02-45e8-8e98-4e84aba1f10b,Network Connection Initiated Via Notepad.EXE,high,3,3,False,T1055
+bbb80e91-5746-4fbe-8898-122e2cafdbf4,Suspicious PowerShell Invocations - Generic - PowerShell Module,high,2,267,False,T1059.001
+166e9c50-8cd9-44af-815d-d1f0c0e90dde,Suspicious Svchost Process Access,high,2,153,False,T1685.001
+eeb2e3dc-c1f4-40dd-9bd5-149ee465ad50,Remote Thread Creation Via PowerShell,medium,2,89,False,T1059.001
+9a4ff3b8-6187-4fd2-8e8b-e0eae1129495,SysKey Registry Keys Access,high,2,16,False,T1012
+962fe167-e48d-4fd6-9974-11e5b9a5d6d1,LSASS Access From Non System Account,medium,2,10,False,T1003.001
+5cc2cda8-f261-4d88-a2de-e9e193c86716,Suspicious Processes Spawned by WinRM - Generic,high,2,8,False,T1190
+d95de845-b83c-4a9a-8a6a-4fc802ebf6c0,Suspicious Group And Account Reconnaissance Activity Using Net.EXE - Generic,medium,2,8,False,T1087.001;T1087.002
+a642964e-bead-4bed-8910-1bb4d63e3b4d,HackTool - Mimikatz Execution - Generic,high,2,6,False,T1003.001;T1003.002;T1003.004;T1003.005;T1003.006
+c260b6db-48ba-4b4a-a76f-2f67644e99d2,HackTool - Covenant PowerShell Launcher - Generic,high,2,6,False,T1059.001;T1564.003
+e32d4572-9826-4738-b651-95fa63747e8a,Base64 Encoded PowerShell Command Detected - Generic,high,2,6,False,T1027;T1059.001;T1140
+75e33ce3-ae32-4dcc-9aa8-a2a3029d6f84,Office Application Initiated Network Connection To Non-Local IP,medium,2,5,False,T1203
+e4a74e34-ecde-4aab-b2fb-9112dd01aed0,Dynamic CSharp Compile Artefact,low,2,5,False,T1027.004
+333cdbe8-27bb-4246-bf82-b41a0dca4b70,Suspicious Volume Shadow Copy VSS_PS.dll Load,high,2,4,False,T1490
+35ba1d85-724d-42a3-889f-2e2362bcaf23,AD Privileged Users or Groups Reconnaissance,high,2,4,False,T1087.002
+3a6586ad-127a-4d3b-a677-1e6eacdf8fde,Windows Shell/Scripting Processes Spawning Suspicious Programs - Generic,high,2,4,False,T1059.001;T1059.005;T1218
+81bcb81b-5b1f-474b-b373-52c871aaa7b1,Stop Windows Service Via Sc.EXE - Generic,low,2,4,False,T1489
+9bdaf1e9-fdef-443b-8081-4341b74a7e28,Suspicious New Instance Of An Office COM Object - Generic,medium,2,4,False,
+a21bcd7e-38ec-49ad-b69a-9ea17e69509e,DNS Server Discovery Via LDAP Query,low,2,4,False,T1482
+ff23ffbc-3378-435e-992f-0624dcf93ab4,HackTool - PurpleSharp Execution - Generic,critical,2,4,False,T1587
+4f86b304-3e02-40e3-aa5d-e88a167c9617,Scheduled Task Deletion,low,2,3,False,T1053.005
+2a926e6a-4b81-4011-8a96-e36cc8c04302,PowerShell Scripts Installed as Services - Security,high,2,2,False,T1569.002
+411742ad-89b0-49cb-a7b0-3971b5c1e0a4,Locked Workstation,informational,2,2,False,
+57712d7a-679c-4a41-a913-87e7175ae429,SC.EXE Query Execution - Generic,low,2,2,False,T1007
+e54979bd-c5f9-4d6c-967b-a04b19ac4c74,Uncommon Outbound Kerberos Connection,medium,2,2,False,T1550.003;T1558
+eca91c7c-9214-47b9-b4c5-cb1d7e4f2350,Uncommon Outbound Kerberos Connection - Security,medium,2,2,False,T1558.003
+d88d0ab2-e696-4d40-a2ed-9790064e66b3,Modification of IE Registry Settings - Generic,low,1,168,False,T1112
+d29ada0f-af45-4f27-8f32-f7b77c3dbc4e,HackTool - SysmonEnte Execution,high,1,46,False,T1685.001
+a29c1813-ab1f-4dde-b489-330b952e91ae,Suspicious Network Command - Generic,low,1,14,False,T1016
+a982fc9c-6333-4ffb-a51d-addb04e8b529,Windows Defender Exclusions Added - Registry - Generic,medium,1,13,False,T1685
+86085955-ea48-42a2-9dd3-85d4c36b167d,Process Terminated Via Taskkill - Generic,low,1,10,False,T1489
+bef0bc5a-b9ae-425d-85c6-7b2d705980c6,Python Initiated Connection,medium,1,10,False,T1046
+baecf8fb-edbf-429f-9ade-31fc3f22b970,Office Autorun Keys Modification - Generic,medium,1,7,False,T1547.001
+0f06a3a5-6a09-413f-8743-e6cf35561297,WMI Event Subscription,medium,1,6,False,T1546.003
+2c99737c-585d-4431-b61a-c911d86ff32f,Powerview Add-DomainObjectAcl DCSync AD Extend Right,high,1,6,False,T1098
+0e4164da-94bc-450d-a7be-a4b176179f1f,Firewall Configuration Discovery Via Netsh.EXE - Generic,low,1,4,False,T1016
+183e7ea8-ac4b-4c23-9aec-b3dac4e401ac,Net.EXE Execution - Generic,low,1,4,False,T1007;T1018;T1021.002;T1049;T1069.001;T1069.002;T1087.001;T1087.002;T1135;T1201
+b439f47d-ef52-4b29-9a2f-57d8a96cb6b8,WMI ActiveScriptEventConsumers Activity Via Scrcons.EXE DLL Load,medium,1,4,False,T1546.003
+bd8b828d-0dca-48e1-8a63-8a58ecf2644f,Group Membership Reconnaissance Via Whoami.EXE - Generic,medium,1,4,False,T1033
+cd219ff3-fa99-45d4-8380-a7d15116c6dc,New User Created Via Net.EXE - Generic,medium,1,4,False,T1136.001
+cd5cfd80-aa5f-44c0-9c20-108c4ae12e3c,New Firewall Rule Added Via Netsh.EXE - Generic,medium,1,4,False,T1686.003
+d5601f8c-b26f-4ab0-9035-69e11a8d4ad2,CobaltStrike Named Pipe,critical,1,4,False,T1055
+7892ec59-c5bb-496d-8968-e5d210ca3ac4,DPAPI Backup Keys And Certificate Export Activity IOC,high,1,3,False,T1552.004;T1555
+0248a7bc-8a9a-4cd8-a57e-3ae8e073a073,ISO Image Mounted,medium,1,2,False,T1566.001
+0f920ebe-7aea-4c54-b202-9aa0c609cfe5,Potential Credential Dumping Attempt Via PowerShell,medium,1,2,False,T1003.001
+1228c958-e64e-4e71-92ad-7d429f4138ba,Script Interpreter Execution From Suspicious Folder - Generic,high,1,2,False,T1059
+221b251a-357a-49a9-920a-271802777cc0,Potential Process Reconnaissance via Wmic.EXE - Generic,medium,1,2,False,T1047;T1057
+2c28c248-7f50-417a-9186-a85b223010ee,Wscript Shell Run In CommandLine - Generic,medium,1,2,False,T1059
+3286d37a-00fd-41c2-a624-a672dcd34e60,Curl.EXE Execution With Custom UserAgent - Generic,medium,1,2,False,T1071.001
+36210e0d-5b19-485d-a087-c096088885f0,Suspicious PowerShell Parameter Substring - Generic,high,1,2,False,T1059.001
+38646daa-e78f-4ace-9de0-55547b2d30da,PUA - Seatbelt Execution - Generic,high,1,2,False,T1083;T1087;T1526
+3a9b8c1e-5b2e-4f7a-9d1c-2a7f3b6e1c55,RunMRU Registry Key Deletion - Registry,high,1,2,False,T1070.003
+4b991083-3d0e-44ce-8fc4-b254025d8d4b,Unusual Parent Process For Cmd.EXE - Generic,medium,1,2,False,T1059
+4f154fb6-27d1-4813-a759-78b93e0b9c48,Operator Bloopers Cobalt Strike Modules - Generic,high,1,2,False,T1059.003
+4f4eaa9f-5ad4-410c-a4be-bc6132b0175a,CMD Shell Output Redirect - Generic,low,1,2,False,T1082
+5cb299fc-5fb1-4d07-b989-0644c68b6043,Suspicious File Download From IP Via Curl.EXE - Generic,high,1,2,False,
+63332011-f057-496c-ad8d-d2b6afb27f96,Suspicious Tasklist Discovery Command - Generic,informational,1,2,False,T1057
+692f0bec-83ba-4d04-af7e-e884a96059b6,Potential WMI Lateral Movement WmiPrvSE Spawned PowerShell - Generic,medium,1,2,False,T1047;T1059.001
+730fc21b-eaff-474b-ad23-90fd265d4988,Psexec Execution - Generic,medium,1,2,False,T1021;T1569
+7cccd811-7ae9-4ebe-9afd-cb5c406b824b,Potential Execution of Sysinternals Tools - Generic,low,1,2,False,T1588.002
+85ff530b-261d-48c6-a441-facaa2e81e48,New Service Creation Using Sc.EXE - Generic,low,1,2,False,T1543.003
+868df2d1-0939-4562-83a7-27408c4a1ada,Shell Context Menu Command Tampering - Generic,low,1,2,False,
+9a517fca-4ba3-4629-9278-a68694697b81,File Download Via Curl.EXE - Generic,medium,1,2,False,T1105
+9bd04a79-dabe-4f1f-a5ff-92430265c96b,Privilege Escalation via Named Pipe Impersonation - Generic,high,1,2,False,T1021
+9f22ccd5-a435-453b-af96-bf99cbb594d4,WinAPI Function Calls Via PowerShell Scripts,medium,1,2,False,T1059.001;T1106
+a2910908-e86f-4687-aeba-76a5f996e652,DLL Execution Via Register-cimprovider.exe - Generic,medium,1,2,False,T1574
+b2317cfa-4a47-4ead-b3ff-297438c0bc2d,HackTool - SharpView Execution - Generic,high,1,2,False,T1033;T1049;T1069.002;T1135;T1482
+bbeaed61-1990-4773-bf57-b81dbad7db2d,Curl.EXE Execution - Generic,low,1,2,False,T1105
+cbec226f-63d9-4eca-9f52-dfb6652f24df,Suspicious Process Parents - Generic,high,1,2,False,T1036
+cea72823-df4d-4567-950c-0b579eaf0846,Potential Dropper Script Execution Via WScript/CScript/MSHTA - Generic,medium,1,2,False,T1059.005;T1059.007
+cf879ffb-793a-4753-9a14-bc8f37cc90df,Potential Qakbot Rundll32 Execution - Generic,high,1,2,False,
+d042284c-a296-4988-9be5-f424fadcc28c,Suspicious Execution of InstallUtil Without Log - Generic,medium,1,2,False,
+d0d2f720-d14f-448d-8242-51ff396a334e,HackTool - Generic Process Access,high,1,2,False,T1003.001
+e218595b-bbe7-4ee5-8a96-f32a24ad3468,Suspicious Curl.EXE Download - Generic,high,1,2,False,T1105
+e593cf51-88db-4ee1-b920-37e89012a3c9,Potentially Suspicious Rundll32 Activity - Generic,medium,1,2,False,T1218.011
+ec1d5e28-8f3b-4188-a6f8-6e8df81dc28e,WMI Persistence - Script Event Consumer - Generic,medium,1,2,False,T1546.003
+f35c5d71-b489-4e22-a115-f003df287317,Potential CobaltStrike Process Patterns - Generic,high,1,2,False,T1059
+f3f3a972-f982-40ad-b63c-bca6afdfad7c,PsExec Default Named Pipe,low,1,2,False,T1569.002
+fd877b94-9bb5-4191-bb25-d79cbd93c167,Dumping of Sensitive Hives Via Reg.EXE - Generic,high,1,2,False,T1003.002;T1003.004;T1003.005
+fdb62a13-9a81-4e5c-a38f-ea93a16f6d7c,PowerShell Base64 Encoded FromBase64String Cmdlet - Generic,high,1,2,False,T1059.001;T1140
+fdfcbd78-48f1-4a4b-90ac-d82241e368c5,PsExec Service Execution - Generic,medium,1,2,False,
+02c39d30-02b5-45d2-b435-8aebfe5a8629,A Member Was Removed From a Security-Enabled Global Group,low,1,1,False,T1098
+06ce37c2-61ab-4f05-9ff5-b1a96d18ae32,WMIC Loading Scripting Libraries,medium,1,1,False,T1220
+0ef56343-059e-4cb6-adc1-4c3c967c5e46,Suspicious Execution of Systeminfo - Generic,low,1,1,False,T1082
+12e6d621-194f-4f59-90cc-1959e21e69f7,Register new Logon Process by Rubeus,high,1,1,False,T1558.003
+192a0330-c20b-4356-90b6-7b7049ae0b87,Successful Overpass the Hash Attempt,high,1,1,False,T1550.002
+1cf465a1-2609-4c15-9b66-c32dbe4bfd67,Legitimate Application Writing Files In Uncommon Location,high,1,1,False,T1105;T1218
+20f0ee37-5942-4e45-b7d5-c5b5db9df5cd,CurrentVersion Autorun Keys Modification - Generic,medium,1,1,False,T1547.001
+259e5a6a-b8d2-4c38-86e2-26c5e651361d,PsExec Service File Creation,low,1,1,False,T1569.002
+25ffa65d-76d8-4da5-a832-3f2b0136e133,PUA - Sysinternal Tool Execution - Registry - Generic,low,1,1,False,T1588.002
+27a72a60-7e5e-47b1-9d17-909c9abafdcd,Potentially Suspicious Compression Tool Parameters - Generic,medium,1,1,False,T1560.001
+28208707-fe31-437f-9a7f-4b1108b94d2e,Suspicious Startup Folder Persistence,high,1,1,False,T1204.002;T1547.001
+2aa0a6b4-a865-495b-ab51-c28249537b75,Startup Folder File Write,medium,1,1,False,T1547.001
+49f2f17b-b4c8-4172-a68b-d5bf95d05130,UAC Bypass via ICMLuaUtil - Generic,high,1,1,False,T1548.002
+4fc0deee-0057-4998-ab31-d24e46e0aba4,Potential System DLL Sideloading From Non System Locations,high,1,1,False,T1574.001
+50f852e6-af22-4c78-9ede-42ef36aa3453,Potential Azure Browser SSO Abuse,low,1,1,False,T1574.001
+52d8b0c6-53d6-439a-9e41-52ad442ad9ad,First Time Seen Remote Named Pipe,high,1,1,False,T1021.002
+575dce0c-8139-4e30-9295-1ee75969f7fe,Potential Reconnaissance Activity Via GatherNetworkInfo.VBS - Generic,medium,1,1,False,T1059.005;T1615
+5af54681-df95-4c26-854f-2565e13cfab0,Successful Account Login Via WMI,low,1,1,False,T1047
+666ecfc7-229d-42b8-821e-1a8f8cb7057c,System Drawing DLL Load,low,1,1,False,T1113
+66b6be3d-55d0-4f47-9855-d69df21740ea,Local User Creation,low,1,1,False,T1136.001
+66d31e5f-52d6-40a4-9615-002d3789a119,Remote Thread Creation By Uncommon Source Image,medium,1,1,False,T1055
+6b98b92b-4f00-4f62-b4fe-4d1920215771,Potential DLL Sideloading Of Non-Existent DLLs From System Folders,high,1,1,False,T1574.001
+7c0dcd3d-acf8-4f71-9570-f448b0034f94,PsExec Service Child Process Execution as LOCAL SYSTEM - Generic,high,1,1,False,
+8eef149c-bd26-49f2-9e5a-9b00e3af499b,Pass the Hash Activity 2,medium,1,1,False,T1550.002
+9599c180-e3a8-4743-8f92-7fb96d3be648,Potential Remote WMI ActiveScriptEventConsumers Activity,medium,1,1,False,T1546.003
+966315ef-c5e1-4767-ba25-fce9c8de3660,Suspicious Environment Variable Has Been Registered - Generic,high,1,1,False,
+970007b7-ce32-49d0-a4a4-fbef016950bd,Potential Configuration And Service Reconnaissance Via Reg.EXE - Generic,medium,1,1,False,T1007;T1012
+9be34ad0-b6a7-4fbd-91cf-fc7ec1047f5f,UNC2452 Process Creation Patterns - Generic,high,1,1,False,T1059.001
+9e099d99-44c2-42b6-a6d8-54c3545cab29,HackTool - Mimikatz Kirbi File Creation,critical,1,1,False,T1558
+a1a144b7-5c9b-4853-a559-2172be8d4a03,Remote Thread Creation In Uncommon Target Image,medium,1,1,False,T1055.003
+c43c26be-2e87-46c7-8661-284588c5a53e,A Member Was Added to a Security-Enabled Global Group,low,1,1,False,T1098
+c5f4b5cb-4c25-4249-ba91-aa03626e3185,Microsoft Excel Add-In Loaded,low,1,1,False,T1204.002
+c7da8edc-49ae-45a2-9e61-9fd860e4e73d,PUA - Sysinternals Tools Execution - Registry - Generic,medium,1,1,False,T1588.002
+d223b46b-5621-4037-88fe-fda32eead684,New Root or CA or AuthRoot Certificate to Store - Generic,medium,1,1,False,T1490
+dae8171c-5ec6-4396-b210-8466585b53e9,SCM Database Privileged Operation,medium,1,1,False,T1548
+dca1b3e8-e043-4ec8-85d7-867f334b5724,PFX File Creation,low,1,1,False,T1552.004
+def8b624-e08f-4ae1-8612-1ba21190da6b,Outgoing Logon with New Credentials,low,1,1,False,T1550
+df6ecb8b-7822-4f4b-b412-08f524b4576c,Creation Of Non-Existent System DLL,medium,1,1,False,T1574.001
+e56d3073-83ff-4021-90fe-c658e0709e72,Gpresult Display Group Policy Information - Generic,medium,1,1,False,T1615
+ed965133-513f-41d9-a441-e38076a0798f,Suspicious PowerShell Invocations - Generic,high,1,1,False,T1059.001
+f3a98ce4-6164-4dd4-867c-4d83de7eca51,Powershell Token Obfuscation - Powershell,medium,1,1,False,T1027.009
+f59c3faf-50f3-464b-9f4c-1b67ab512d99,Common Autorun Keys Modification - Generic,medium,1,1,False,T1547.001
+fe21810c-2a8c-478f-8dd3-5a287fb2a0e0,Suspicious Scripting in a WMI Consumer,high,1,1,False,T1059.005
